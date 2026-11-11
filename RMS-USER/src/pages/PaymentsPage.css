@@ -1,0 +1,25 @@
+.payments-page-shell {
+  padding-top: 24px;
+}
+
+.payments-shell {
+  background: rgba(255,255,255,0.96);
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(11,36,80,0.08);
+  border: 1px solid #e7edf6;
+  padding: 24px;
+}
+
+.payment-stat-card {
+  border-radius: 18px;
+  height: 100%;
+  background: #f9fbff;
+  border: 1px solid #e7edf6;
+}
+
+@media (max-width: 640px) {
+  .payments-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

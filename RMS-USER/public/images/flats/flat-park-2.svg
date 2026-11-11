@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="f2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f3fbff"/>
+      <stop offset="100%" stop-color="#dceef8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#f2)"/>
+  <rect x="0" y="560" width="1200" height="240" fill="#dfead6"/>
+  <rect x="200" y="200" width="800" height="300" fill="#f8fbfe" stroke="#7d8ea3" stroke-width="10"/>
+  <rect x="280" y="250" width="170" height="180" fill="#dfeef7"/>
+  <rect x="510" y="250" width="170" height="180" fill="#dfeef7"/>
+  <rect x="740" y="250" width="170" height="180" fill="#dfeef7"/>
+  <rect x="330" y="140" width="540" height="60" fill="#cfe2f0"/>
+  <path d="M80 620 L330 450 L580 620 Z" fill="#8ac4af" opacity="0.74"/>
+  <path d="M610 620 L870 450 L1120 620 Z" fill="#8ac4af" opacity="0.74"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#1c3e5f">Park View Flat 2</text>
+</svg>

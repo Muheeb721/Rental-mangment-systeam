@@ -1,0 +1,19 @@
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #eef4ff 0%, #f8fbff 100%);
+}
+.auth-card {
+  width: min(92vw, 460px);
+  border-radius: 24px;
+}
+.auth-title {
+  margin-bottom: 8px;
+}
+.auth-subtitle {
+  color: #64809b;
+}
+.auth-form {
+  margin-top: 12px;
+}

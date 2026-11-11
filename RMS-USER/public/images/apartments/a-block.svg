@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="a1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef8ff"/>
+      <stop offset="100%" stop-color="#d3e4fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#a1)"/>
+  <rect x="0" y="548" width="1200" height="252" fill="#dfe8d5"/>
+  <rect x="160" y="200" width="880" height="300" fill="#edf6ff" stroke="#7f93ab" stroke-width="10"/>
+  <rect x="205" y="260" width="120" height="180" fill="#dcebf9"/>
+  <rect x="355" y="260" width="120" height="180" fill="#dcebf9"/>
+  <rect x="505" y="260" width="120" height="180" fill="#dcebf9"/>
+  <rect x="655" y="260" width="120" height="180" fill="#dcebf9"/>
+  <rect x="805" y="260" width="120" height="180" fill="#dcebf9"/>
+  <rect x="250" y="120" width="640" height="80" fill="#bfd3ea"/>
+  <rect x="320" y="130" width="70" height="60" fill="#ffffff" opacity="0.75"/>
+  <rect x="420" y="130" width="70" height="60" fill="#ffffff" opacity="0.75"/>
+  <rect x="520" y="130" width="70" height="60" fill="#ffffff" opacity="0.75"/>
+  <rect x="620" y="130" width="70" height="60" fill="#ffffff" opacity="0.75"/>
+  <rect x="720" y="130" width="70" height="60" fill="#ffffff" opacity="0.75"/>
+  <path d="M100 600 L320 450 L480 600 Z" fill="#88c7a8" opacity="0.72"/>
+  <path d="M680 600 L890 450 L1090 600 Z" fill="#88c7a8" opacity="0.72"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#193b5c">A Block Apartment</text>
+</svg>

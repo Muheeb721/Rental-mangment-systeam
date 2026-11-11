@@ -1,0 +1,85 @@
+.my-rent-page-shell {
+  padding-top: 24px;
+}
+
+.my-rent-shell {
+  background: rgba(255,255,255,0.96);
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(11,36,80,0.08);
+  border: 1px solid #e7edf6;
+  padding: 24px;
+}
+
+.my-rent-header,
+.payments-header,
+.maintenance-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.rent-summary-card,
+.payment-stat-card,
+.maintenance-stat-card {
+  border-radius: 18px;
+  height: 100%;
+  background: #f9fbff;
+  border: 1px solid #e7edf6;
+}
+
+.rent-card-top {
+  color: #64748b;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+.warning-card {
+  background: linear-gradient(180deg, rgba(245,158,11,0.06), #fff7e8);
+}
+
+.success-card {
+  background: linear-gradient(180deg, rgba(34,197,94,0.05), #f0fdf4);
+}
+
+.empty-rent-state {
+  text-align: center;
+  padding: 48px 20px;
+  border: 1px dashed #dfe9f3;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #f8fbff, #f2f8ff);
+}
+
+.subsection-title {
+  margin: 26px 0 12px;
+  color: #0b2450;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.rental-table-wrap,
+.payment-table-wrap,
+.maintenance-table-wrap {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #edf2f7;
+  background: #fff;
+}
+
+.modern-rent-table .ant-table,
+.modern-payment-table .ant-table,
+.modern-maintenance-table .ant-table {
+  background: transparent;
+}
+
+@media (max-width: 640px) {
+  .my-rent-header,
+  .payments-header,
+  .maintenance-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

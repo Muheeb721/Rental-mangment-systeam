@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="c1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef9ff"/>
+      <stop offset="100%" stop-color="#dbeaf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#c1)"/>
+  <rect x="0" y="550" width="1200" height="250" fill="#dfe9d5"/>
+  <rect x="150" y="220" width="900" height="290" fill="#f4f8fb" stroke="#7f8ea4" stroke-width="10"/>
+  <rect x="210" y="280" width="120" height="170" fill="#d9eefe"/>
+  <rect x="370" y="280" width="120" height="170" fill="#d9eefe"/>
+  <rect x="530" y="280" width="120" height="170" fill="#d9eefe"/>
+  <rect x="690" y="280" width="120" height="170" fill="#d9eefe"/>
+  <rect x="850" y="280" width="120" height="170" fill="#d9eefe"/>
+  <rect x="240" y="120" width="710" height="90" fill="#c1d9ef"/>
+  <rect x="330" y="150" width="90" height="40" fill="#ffffff" opacity="0.75"/>
+  <rect x="470" y="150" width="90" height="40" fill="#ffffff" opacity="0.75"/>
+  <rect x="610" y="150" width="90" height="40" fill="#ffffff" opacity="0.75"/>
+  <rect x="750" y="150" width="90" height="40" fill="#ffffff" opacity="0.75"/>
+  <path d="M60 600 L280 450 L500 600 Z" fill="#80c2a2" opacity="0.7"/>
+  <path d="M680 600 L920 450 L1110 600 Z" fill="#80c2a2" opacity="0.7"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#1d3b5d">C Block Apartment</text>
+</svg>

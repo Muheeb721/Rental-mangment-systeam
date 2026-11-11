@@ -1,0 +1,9 @@
+.rms-topbar{ position:sticky; top:0; z-index:110; background:transparent; backdrop-filter: blur(8px); padding:10px 18px; display:flex; align-items:center; gap:12px; justify-content:space-between; }
+.topbar-left{ display:flex; align-items:center; gap:12px }
+.topbar-brand{ font-weight:800; color:#0b2450; text-decoration:none }
+.topbar-center{ flex:1; display:flex; justify-content:center }
+.topbar-right{ display:flex; gap:10px; align-items:center }
+.mobile-menu{ display:none }
+.collapse-toggle{ margin-left:8px }
+
+@media (max-width:900px){ .mobile-menu{ display:inline-flex } .topbar-center{ display:none } }

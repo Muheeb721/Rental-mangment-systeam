@@ -1,0 +1,373 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 8px 0 40px;
+}
+
+.about-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px;
+  background: #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.brand-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  color: #102a56;
+}
+
+.brand-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #102a56 0%, #36a85a 100%);
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #334155;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  color: #36a85a;
+}
+
+.nav-cta,
+.primary-btn,
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 11px 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-cta,
+.primary-btn {
+  background: linear-gradient(135deg, #102a56 0%, #36a85a 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 24px rgba(16, 42, 86, 0.16);
+}
+
+.secondary-btn {
+  background: #f5f9ff;
+  color: #102a56;
+  border: 1px solid #dce8f5;
+}
+
+.nav-cta:hover,
+.primary-btn:hover,
+.secondary-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hero-section,
+.who-we-are-section,
+.services-section,
+.benefits-section,
+.stats-section,
+.cta-section {
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 24px;
+  padding: 36px;
+}
+
+.hero-copy h1,
+.who-we-are-copy h2,
+.section-heading-center h2,
+.mission-copy h2,
+.cta-copy h2 {
+  margin: 0 0 14px;
+  color: #f3f3f3;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.12;
+}
+
+.hero-copy p,
+.who-we-are-copy p,
+.service-card p,
+.cta-copy p,
+.mission-copy p {
+  color: #010203;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.section-tag {
+  display: inline-flex;
+  margin-bottom: 14px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #e9f7ee;
+  color: #36a85a;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.76rem;
+}
+
+.section-tag.green {
+  background: #e8f3ff;
+  color: #102a56;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.hero-visual img,
+.who-we-are-image img,
+.cta-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.who-we-are-section {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 24px;
+  padding: 28px;
+  align-items: center;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.feature-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #f3f8ff;
+  color: #102a56;
+  font-weight: 700;
+}
+
+.services-section,
+.vision-mission-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.vision-card {
+  padding: 24px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #f8fbff 0%, #f3fff9 100%);
+  border: 1px solid #e4eef8;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.05);
+}
+
+.vision-card h3 {
+  margin: 0 0 10px;
+  color: #102a56;
+  font-size: 1.3rem;
+}
+
+.vision-card p {
+  margin: 0;
+  color: #5f6f85;
+  line-height: 1.8;
+}
+
+.benefits-section {
+  padding: 32px;
+}
+
+.section-heading-center {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.services-grid,
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.service-card,
+.benefit-card {
+  padding: 24px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border: 1px solid #e8eef7;
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.05);
+}
+
+.service-icon,
+.benefit-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #102a56 0%, #36a85a 100%);
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+}
+
+.service-card h3,
+.benefit-card h3 {
+  margin: 0 0 10px;
+  color: #102a56;
+}
+
+.service-card a {
+  display: inline-flex;
+  margin-top: 12px;
+  font-weight: 700;
+  color: #36a85a;
+  text-decoration: none;
+}
+
+.mission-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 32px;
+  background: linear-gradient(135deg, #102a56 0%, #173a6d 100%);
+  border-radius: 28px;
+  color: #ffffff;
+}
+
+.mission-icon {
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(54, 168, 90, 0.16);
+  font-size: 1.6rem;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  padding: 24px;
+  background: #f9fbff;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 18px;
+}
+
+.stat-card h3 {
+  margin: 0 0 6px;
+  color: #102a56;
+  font-size: 1.75rem;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #5f6f85;
+}
+
+.cta-section {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 20px;
+  padding: 28px;
+  background: linear-gradient(135deg, #102a56 0%, #173a6d 100%);
+  color: #ffffff;
+}
+
+.cta-copy h2,
+.cta-copy p {
+  color: #ffffff;
+}
+
+@media (max-width: 1040px) {
+  .hero-section,
+  .who-we-are-section,
+  .cta-section,
+  .services-grid,
+  .benefits-grid,
+  .stats-section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .services-grid,
+  .benefits-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .about-nav {
+    flex-direction: column;
+    border-radius: 24px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .hero-section,
+  .who-we-are-section,
+  .cta-section,
+  .mission-section,
+  .services-grid,
+  .benefits-grid,
+  .stats-section,
+  .vision-mission-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section,
+  .services-section,
+  .benefits-section,
+  .cta-section,
+  .mission-section,
+  .stats-section {
+    padding: 22px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
