@@ -1,0 +1,9 @@
+.property-card { display:flex; border:1px solid #e6e6e6; border-radius:6px; overflow:hidden; }
+.property-card .thumb { width:120px; height:90px; background-size:cover; background-position:center; }
+.property-card .meta { padding:8px; flex:1; }
+.property-card .meta h4 { margin:0 0 4px 0; font-size:14px }
+.property-card .meta-row { color:#666; font-size:12px }
+.property-card .buttons { margin-top:8px }
+.property-card .buttons .primary { margin-right:8px }
+.file-label { cursor:pointer; display:inline-block }
+.file-label input { display:none }

@@ -1,0 +1,12 @@
+.api-panel-page .property-form {
+  display: grid;
+  gap: 16px;
+}
+
+.api-panel-page .property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--text);
+}

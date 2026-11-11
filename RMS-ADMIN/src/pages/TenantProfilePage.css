@@ -1,0 +1,168 @@
+.tenant-profile-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tenant-profile-page .profile-header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.tenant-profile-page .profile-summary {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.tenant-profile-page .member-avatar {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #2b5dff, #7d9cff);
+  color: #fff;
+  font-weight: 700;
+}
+
+.tenant-profile-page .profile-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+
+.tenant-profile-page .profile-summary-badges {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tenant-profile-page .stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.tenant-profile-page .stats-strip .stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+
+.tenant-profile-page .stats-strip .stat-card p,
+.tenant-profile-page .stats-strip .stat-card h3 {
+  margin: 0;
+}
+
+.tenant-profile-page .stats-strip .stat-card p {
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.tenant-profile-page .tab-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tenant-profile-page .tab-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.tenant-profile-page .tab-button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.tenant-profile-page .tab-button.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.tenant-profile-page .tenant-detail-grid,
+.tenant-profile-page .overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.tenant-profile-page .detail-card,
+.tenant-profile-page .overview-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tenant-profile-page .detail-card label,
+.tenant-profile-page .overview-card label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tenant-profile-page .overview-card.accent {
+  background: linear-gradient(135deg, rgba(43,93,255,0.08), rgba(125,156,255,0.12));
+}
+
+.tenant-profile-page .timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tenant-profile-page .timeline-item {
+  display: flex;
+  gap: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+  background: var(--surface-alt);
+}
+
+.tenant-profile-page .timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--primary);
+  margin-top: 7px;
+}
+
+.tenant-profile-page .timeline-item p,
+.tenant-profile-page .timeline-item small {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+@media (max-width: 760px) {
+  .tenant-profile-page .profile-header-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tenant-profile-page .stats-strip {
+    grid-template-columns: 1fr;
+  }
+}

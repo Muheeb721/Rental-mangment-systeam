@@ -1,0 +1,128 @@
+.apartments-page .property-form {
+  display: grid;
+  gap: 16px;
+}
+
+.apartments-page .property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.apartments-page .table-wrap {
+  overflow: auto;
+}
+
+.apartments-page .table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: min(620px, 100%);
+}
+
+.apartments-page .table-wrap th,
+.apartments-page .table-wrap td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.apartments-page .table-wrap th {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+}
+
+.apartments-page .table-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.apartments-page .status-select {
+  min-width: 120px;
+}
+
+.apartments-page .property-thumb {
+  width: 68px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.apartments-page .property-thumb.large {
+  width: 90px;
+  height: 72px;
+}
+
+.apartments-page .image-preview {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.apartments-page .detail-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.apartments-page .detail-header h4,
+.apartments-page .subsection-block h5 {
+  margin: 0;
+}
+
+.apartments-page .detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.apartments-page .subsection-block {
+  margin-top: 18px;
+}
+
+.apartments-page .subsection-block ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: var(--text);
+}
+
+.apartments-page .empty-state {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+}
+
+.apartments-page .empty-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.apartments-page .mini-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: rgba(22, 163, 74, 0.08);
+  color: #166534;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .apartments-page .detail-grid,
+  .apartments-page .form-grid.two-col,
+  .apartments-page .form-grid.three-col {
+    grid-template-columns: 1fr;
+  }
+}

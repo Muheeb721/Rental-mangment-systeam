@@ -1,0 +1,191 @@
+.properties-page {
+  gap: 20px;
+}
+
+.properties-page .summary-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.properties-page .summary-item {
+  padding: 18px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.98));
+  box-shadow: var(--shadow);
+}
+
+.properties-page .summary-item span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.properties-page .summary-item strong {
+  display: block;
+  font-size: clamp(1.3rem, 2vw, 1.9rem);
+  letter-spacing: -0.04em;
+}
+
+.properties-page .summary-item.primary { border-color: rgba(59, 130, 246, 0.15); }
+.properties-page .summary-item.success { border-color: rgba(22, 163, 74, 0.15); }
+.properties-page .summary-item.danger { border-color: rgba(239, 68, 68, 0.15); }
+.properties-page .summary-item.info { border-color: rgba(14, 165, 233, 0.15); }
+
+.properties-page .toolbar-card {
+  padding: 16px 18px;
+}
+
+.properties-page .toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.properties-page .toolbar-search {
+  flex: 1 1 260px;
+}
+
+.properties-page .toolbar-search input,
+.properties-page .toolbar-group select,
+.properties-page .property-form input,
+.properties-page .property-form select,
+.properties-page .property-form textarea {
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: rgba(255, 255, 255, 0.8);
+  font: inherit;
+  color: var(--text);
+}
+
+.properties-page .toolbar-search input {
+  width: 100%;
+}
+
+.properties-page .toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.properties-page .property-form {
+  display: grid;
+  gap: 16px;
+}
+
+.properties-page .property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.properties-page .table-wrap {
+  overflow: auto;
+}
+
+.properties-page .table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: min(620px, 100%);
+}
+
+.properties-page .table-wrap th,
+.properties-page .table-wrap td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.properties-page .table-wrap th {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+}
+
+.properties-page .property-thumb {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.property-thumb-placeholder {
+  display: grid;
+  place-items: center;
+  background: #f1f5f9;
+  color: #64748b;
+  font-size: 0.75rem;
+}
+
+.properties-page .property-thumb.large {
+  width: 96px;
+  height: 96px;
+}
+
+.properties-page .status-select {
+  min-width: 120px;
+}
+
+.properties-page .table-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.properties-page .images-list {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.properties-page .image-item {
+  width: 120px;
+  border: 1px solid var(--border);
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(248, 250, 252, 0.9);
+}
+
+.properties-page .image-item img { width: 100%; height: 80px; object-fit: cover; border-radius: 8px; }
+.properties-page .image-controls { display:flex; gap:6px; }
+.properties-page .file-label input[type=file] { display:block; margin-top:8px; }
+
+@media (max-width: 900px) {
+  .properties-page .summary-strip {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .properties-page .summary-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .properties-page .toolbar-row {
+    align-items: stretch;
+  }
+
+  .properties-page .toolbar-group {
+    width: 100%;
+  }
+
+  .properties-page .toolbar-group > * {
+    flex: 1 1 140px;
+  }
+}

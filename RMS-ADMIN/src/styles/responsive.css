@@ -1,0 +1,560 @@
+/* Global responsive helpers and breakpoints */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Constrain main content to a readable width on large screens */
+.content-area {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: clamp(12px, 2vw, 28px);
+  padding-right: clamp(12px, 2vw, 28px);
+}
+
+/* Responsive modals */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(2, 6, 23, 0.45);
+  z-index: 120;
+  padding: 16px;
+  overflow: auto;
+}
+
+.modal-card {
+  width: 100%;
+  max-width: min(920px, 100%);
+  background: var(--surface);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 16px;
+}
+
+@media (max-width: 1024px) {
+  .content-grid.two-column {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .stats-grid,
+  .stats-grid.three-column,
+  .content-grid.two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-card,
+  .stat-card {
+    padding: 14px;
+  }
+
+  .dashboard-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    width: min(82vw, 320px);
+  }
+}
+
+@media (max-width: 600px) {
+  body,
+  html,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Make list rows stack vertically */
+  .list-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .topbar {
+    padding: 10px 0;
+  }
+
+  .topbar-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .search-box {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .profile-pill {
+    display: none !important;
+  }
+
+  .dashboard-shell,
+  .content-area,
+  .page-section,
+  .panel-card,
+  .stat-card,
+  .card,
+  .content-grid,
+  .stats-grid,
+  .table-wrap,
+  .section-header,
+  .toolbar,
+  .modal-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  /* Make buttons more compact but readable */
+  .primary-button {
+    padding: clamp(8px, 1.8vw, 12px) clamp(10px, 3vw, 16px);
+    font-size: 0.9rem;
+  }
+
+  .outline-button,
+  .mini-button,
+  .table-button {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+
+  /* Make tables horizontally scrollable but not break layout */
+  .table-wrap {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    min-width: 560px !important;
+  }
+
+  /* Forms full width, stacked nicely */
+  .property-form .form-grid.two-col,
+  .form-grid.two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid.three-col,
+  .property-form .form-grid.three-col {
+    grid-template-columns: 1fr;
+  }
+
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+}
+
+/* Tablet tweaks */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .content-area {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .table-wrap {
+    overflow: auto;
+  }
+  table {
+    min-width: 700px !important;
+  }
+}
+
+/* Utility: make images maintain aspect and not overflow */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Small-screen overrides to neutralize page-specific fixed min-widths
+   and tighten spacing for phones/tablets. These keep the theme intact
+   while preventing horizontal overflow and making tables/forms usable. */
+@media (max-width: 900px) {
+  /* Allow tables to keep a minimum width so they can scroll horizontally
+     instead of shrinking columns to unreadable widths. */
+  .table-wrap table {
+    min-width: 680px !important;
+  }
+  .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .page-section,
+  .panel-card,
+  .stat-card {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .nav-item {
+    padding: 12px;
+  }
+
+  .modal-card {
+    max-width: 95vw !important;
+    margin: 0 8px;
+  }
+
+  .property-form .form-grid.two-col,
+  .form-grid.two-col,
+  .form-grid.three-col,
+  .property-form .form-grid.three-col {
+    grid-template-columns: 1fr !important;
+  }
+
+  .menu-toggle {
+    display: grid !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .topbar h2 {
+    font-size: 1.05rem;
+  }
+  .card-header h3 {
+    font-size: 1rem;
+  }
+  .nav-item {
+    font-size: 0.95rem;
+  }
+  .header-icon-button,
+  .menu-toggle {
+    width: 44px;
+    height: 44px;
+  }
+  .primary-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Aggressive small-screen safety: remove forced min-widths and prevent any element from causing horizontal scroll.
+   Scoped to small screens only so desktop layout is preserved. */
+@media (max-width: 900px) {
+  /* Neutralize page-specific fixed min-widths that cause overflow */
+  * {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  /* Ensure text wraps and long strings break (exclude table cells to
+      avoid breaking short header labels into single characters). */
+  p,
+  span,
+  li,
+  strong,
+  small,
+  a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  /* Make dropdowns and selects adapt */
+  select,
+  input,
+  textarea,
+  button {
+    width: 100% !important;
+  }
+
+  /* Keep inline actions wrapping */
+  .inline-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Make images scale down */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Keep controls at their intrinsic size instead of stretching every button. */
+@media (max-width: 900px) {
+  html,
+  body,
+  #root {
+    overflow-x: clip;
+  }
+
+  .dashboard-shell,
+  .content-area,
+  .page-section,
+  .panel-card,
+  .stat-card,
+  .content-grid,
+  .stats-grid,
+  .section-header,
+  .toolbar,
+  .table-wrap,
+  .property-form {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  button,
+  #root :is(button, .ant-btn, [role="button"]) {
+    width: auto !important;
+    max-width: 100%;
+    min-height: 44px !important;
+    white-space: normal;
+  }
+
+  .full-width,
+  .login-form .full-width,
+  .sidebar-footer button,
+  .modal-footer .primary-button,
+  .modal-footer .outline-button {
+    width: 100% !important;
+  }
+
+  input:not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+  select,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-wrap table {
+    width: max-content;
+    min-width: 680px !important;
+    max-width: none !important;
+  }
+
+  .inline-actions,
+  .table-actions,
+  .toolbar-group,
+  .admin-property-slider-actions,
+  .modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .modal-overlay {
+    place-items: center;
+    padding: 12px;
+    overflow-y: auto;
+  }
+
+  .modal-card {
+    width: 100%;
+    max-width: 100% !important;
+    max-height: calc(100dvh - 24px);
+    min-height: 0;
+    margin: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    min-width: 0;
+    padding: 14px;
+  }
+
+  .property-form,
+  .form-grid,
+  .property-form .form-grid,
+  .property-form .form-grid.two-col,
+  .property-form .form-grid.three-col,
+  .form-grid.two-col,
+  .form-grid.three-col {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .property-form > *,
+  .form-grid > * {
+    min-width: 0;
+  }
+
+  .property-form img,
+  .image-preview,
+  .property-thumb,
+  .admin-property-slider-card img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .menu-toggle {
+    position: fixed;
+    z-index: 61;
+    top: 12px;
+    left: 12px;
+    display: grid !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 0;
+    place-items: center;
+  }
+
+  .sidebar {
+    z-index: 62;
+    max-width: min(86vw, 320px) !important;
+    height: 100dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .sidebar-backdrop {
+    z-index: 60;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .stats-grid,
+  .stats-grid.three-column {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .content-area {
+    padding: 68px 12px 20px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .topbar-actions {
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .topbar-actions > * {
+    min-width: 0;
+  }
+
+  .search-box {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .stats-grid,
+  .stats-grid.three-column,
+  .content-grid.two-column,
+  .properties-page .summary-strip,
+  .bookings-page .summary-strip {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card-header,
+  .setting-row,
+  .list-row,
+  .toolbar-row,
+  .properties-page .toolbar-row,
+  .bookings-page .toolbar-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .card-header > *,
+  .toolbar-row > *,
+  .setting-row > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .table-wrap table {
+    min-width: 600px !important;
+  }
+
+  .page-section,
+  .panel-card,
+  .stat-card {
+    padding: 12px;
+  }
+
+  .login-shell {
+    min-height: 100dvh;
+    padding: 12px;
+  }
+
+  .login-card {
+    border-radius: 20px;
+  }
+
+  .login-visual,
+  .login-panel {
+    padding: 22px 18px;
+  }
+
+  .sidebar-footer {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .content-area {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .topbar h2 {
+    font-size: 1.1rem;
+  }
+
+  .modal-overlay {
+    padding: 8px;
+  }
+
+  .modal-card {
+    max-height: calc(100dvh - 16px);
+  }
+}
