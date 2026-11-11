@@ -1,0 +1,86 @@
+{"text": "3 bed house for rent in DHA Phase 5 under 150k", "intent": "search_property", "entities": [["3 bed", "BEDROOMS"], ["house", "PROPERTY_TYPE"], ["rent", "PURPOSE"], ["DHA Phase 5", "AREA"], ["150k", "BUDGET"]]}
+{"text": "show me furnished apartments in Gulberg", "intent": "search_property", "entities": [["furnished", "FURNISHED"], ["apartments", "PROPERTY_TYPE"], ["Gulberg", "AREA"]]}
+{"text": "flats for sale in Bahria Town", "intent": "search_property", "entities": [["flats", "PROPERTY_TYPE"], ["sale", "PURPOSE"], ["Bahria Town", "AREA"]]}
+{"text": "Is there any 2 bedroom flat available in Johar Town for around 60k?", "intent": "search_property", "entities": [["2 bedroom", "BEDROOMS"], ["flat", "PROPERTY_TYPE"], ["Johar Town", "AREA"], ["60k", "BUDGET"]]}
+{"text": "I want to buy a house in DHA under 2 crore", "intent": "search_property", "entities": [["buy", "PURPOSE"], ["house", "PROPERTY_TYPE"], ["DHA", "AREA"], ["2 crore", "BUDGET"]]}
+{"text": "need a cheap room near Model Town", "intent": "search_property", "entities": [["room", "PROPERTY_TYPE"], ["Model Town", "AREA"]]}
+{"text": "houses for rent in Askari 11 with budget 1.5 lakh", "intent": "search_property", "entities": [["houses", "PROPERTY_TYPE"], ["rent", "PURPOSE"], ["Askari 11", "AREA"], ["1.5 lakh", "BUDGET"]]}
+{"text": "apartment in DHA Phase 6 for 85,000 per month", "intent": "search_property", "entities": [["apartment", "PROPERTY_TYPE"], ["DHA Phase 6", "AREA"], ["85,000", "BUDGET"]]}
+{"text": "Gulberg mein 2 bed flat chahiye 70 hazar tak", "intent": "search_property", "entities": [["Gulberg", "AREA"], ["2 bed", "BEDROOMS"], ["flat", "PROPERTY_TYPE"], ["70 hazar", "BUDGET"]]}
+{"text": "DHA mein ghar chahiye kiraye par", "intent": "search_property", "entities": [["DHA", "AREA"], ["kiraye", "PURPOSE"]]}
+{"text": "any 4 bedroom houses in Phase 8?", "intent": "search_property", "entities": [["4 bedroom", "BEDROOMS"], ["houses", "PROPERTY_TYPE"], ["Phase 8", "AREA"]]}
+{"text": "looking for an unfurnished flat in Wapda Town", "intent": "search_property", "entities": [["unfurnished", "FURNISHED"], ["flat", "PROPERTY_TYPE"], ["Wapda Town", "AREA"]]}
+{"text": "can you find me a house for rent in Bahria under 1 lakh", "intent": "search_property", "entities": [["house", "PROPERTY_TYPE"], ["rent", "PURPOSE"], ["Bahria", "AREA"], ["1 lakh", "BUDGET"]]}
+{"text": "what properties do you have in DHA Phase 7", "intent": "search_property", "entities": [["DHA Phase 7", "AREA"]]}
+{"text": "show apartments under 100k", "intent": "search_property", "entities": [["apartments", "PROPERTY_TYPE"], ["100k", "BUDGET"]]}
+{"text": "what is the average rent of a flat in DHA?", "intent": "price_inquiry", "entities": [["rent", "PURPOSE"], ["flat", "PROPERTY_TYPE"], ["DHA", "AREA"]]}
+{"text": "how much is a 3 bedroom house in Gulberg?", "intent": "price_inquiry", "entities": [["3 bedroom", "BEDROOMS"], ["house", "PROPERTY_TYPE"], ["Gulberg", "AREA"]]}
+{"text": "Johar Town mein flat ka kiraya kitna hai?", "intent": "price_inquiry", "entities": [["Johar Town", "AREA"], ["flat", "PROPERTY_TYPE"], ["kiraya", "PURPOSE"]]}
+{"text": "price range of apartments in Bahria Town", "intent": "price_inquiry", "entities": [["apartments", "PROPERTY_TYPE"], ["Bahria Town", "AREA"]]}
+{"text": "I want to book a flat in DHA Phase 6", "intent": "book_property", "entities": [["flat", "PROPERTY_TYPE"], ["DHA Phase 6", "AREA"]]}
+{"text": "how can I rent the second one?", "intent": "book_property", "entities": [["second", "ORDINAL"]]}
+{"text": "only 4 bedrooms", "intent": "refine_search", "entities": [["4 bedrooms", "BEDROOMS"]]}
+{"text": "cheaper ones please", "intent": "refine_search", "entities": []}
+{"text": "show me something cheaper", "intent": "refine_search", "entities": []}
+{"text": "what about Gulberg?", "intent": "refine_search", "entities": [["Gulberg", "AREA"]]}
+{"text": "keep it under 80k", "intent": "refine_search", "entities": [["80k", "BUDGET"]]}
+{"text": "only furnished ones", "intent": "refine_search", "entities": [["furnished", "FURNISHED"]]}
+{"text": "show flats instead", "intent": "refine_search", "entities": [["flats", "PROPERTY_TYPE"]]}
+{"text": "for sale instead", "intent": "refine_search", "entities": [["sale", "PURPOSE"]]}
+{"text": "show more", "intent": "show_more", "entities": []}
+{"text": "any other options?", "intent": "show_more", "entities": []}
+{"text": "aur dikhao", "intent": "show_more", "entities": []}
+{"text": "tell me about the second one", "intent": "property_details", "entities": [["second", "ORDINAL"]]}
+{"text": "details of the first property please", "intent": "property_details", "entities": [["first", "ORDINAL"]]}
+{"text": "is the third one furnished?", "intent": "property_details", "entities": [["third", "ORDINAL"]]}
+{"text": "more info on number 2", "intent": "property_details", "entities": [["2", "ORDINAL"]]}
+{"text": "hello", "intent": "greeting", "entities": []}
+{"text": "Assalam o alaikum", "intent": "greeting", "entities": []}
+{"text": "hey there!", "intent": "greeting", "entities": []}
+{"text": "thank you so much", "intent": "thanks", "entities": []}
+{"text": "shukriya bhai", "intent": "thanks", "entities": []}
+{"text": "what can you do?", "intent": "help", "entities": []}
+{"text": "how do I search for a property?", "intent": "help", "entities": []}
+{"text": "start over", "intent": "reset", "entities": []}
+{"text": "clear all filters please", "intent": "reset", "entities": []}
+{"text": "how far is LUMS from DHA Phase 5?", "intent": "distance", "entities": [["LUMS", "DESTINATION"], ["DHA Phase 5", "ORIGIN"]]}
+{"text": "distance between Gulberg and UET Lahore", "intent": "distance", "entities": [["Gulberg", "ORIGIN"], ["UET Lahore", "DESTINATION"]]}
+{"text": "how long does it take from Johar Town to Liberty Market by car?", "intent": "travel_time", "entities": [["Johar Town", "ORIGIN"], ["Liberty Market", "DESTINATION"], ["car", "TRANSPORT"]]}
+{"text": "Askari 10 se FAST NUCES Lahore bike par kitna time lagega?", "intent": "travel_time", "entities": [["Askari 10", "ORIGIN"], ["FAST NUCES Lahore", "DESTINATION"], ["bike", "TRANSPORT"]]}
+{"text": "how much does a rickshaw cost from Model Town to Punjab University?", "intent": "travel_cost", "entities": [["rickshaw", "TRANSPORT"], ["Model Town", "ORIGIN"], ["Punjab University", "DESTINATION"]]}
+{"text": "petrol cost from Bahria Town Lahore to UCP by car", "intent": "travel_cost", "entities": [["Bahria Town Lahore", "ORIGIN"], ["UCP", "DESTINATION"], ["car", "TRANSPORT"]]}
+{"text": "time and cost from Gulberg to LUMS by metro bus", "intent": "travel_time_cost", "entities": [["Gulberg", "ORIGIN"], ["LUMS", "DESTINATION"], ["metro bus", "TRANSPORT"]]}
+{"text": "I need a flat near UET Lahore under 50k and tell me the travel cost by bike", "intent": "property_with_travel", "entities": [["flat", "PROPERTY_TYPE"], ["UET Lahore", "LANDMARK"], ["50k", "BUDGET"], ["bike", "TRANSPORT"]]}
+{"text": "house in Johar Town and how long to reach UCP by car?", "intent": "property_with_travel", "entities": [["house", "PROPERTY_TYPE"], ["Johar Town", "AREA"], ["UCP", "DESTINATION"], ["car", "TRANSPORT"]]}
+{"text": "how far is this house from LUMS?", "intent": "property_question", "entities": [["LUMS", "DESTINATION"]]}
+{"text": "and from UCP by rickshaw?", "intent": "property_question", "entities": [["UCP", "DESTINATION"], ["rickshaw", "TRANSPORT"]]}
+{"text": "is it furnished?", "intent": "property_question", "entities": [["furnished", "FURNISHED"]]}
+{"text": "does this place have parking for two cars?", "intent": "property_question", "entities": [["parking", "FEATURE"]]}
+{"text": "Is there a generator or UPS backup?", "intent": "property_question", "entities": [["generator", "FEATURE"], ["UPS", "FEATURE"]]}
+{"text": "whats the security deposit on this one", "intent": "property_question", "entities": [["security deposit", "FEATURE"]]}
+{"text": "how old is the building?", "intent": "property_question", "entities": []}
+{"text": "would this be ok for a family with two kids?", "intent": "property_question", "entities": [["family", "FEATURE"]]}
+{"text": "how much would I spend commuting daily to UCP by bike?", "intent": "property_question", "entities": [["UCP", "DESTINATION"], ["bike", "TRANSPORT"]]}
+{"text": "yahan se Punjab University roz bike par kitna kharcha hoga?", "intent": "property_question", "entities": [["Punjab University", "DESTINATION"], ["bike", "TRANSPORT"]]}
+{"text": "is ghar mein gas hai?", "intent": "property_question", "entities": [["gas", "FEATURE"]]}
+{"text": "what's nearby?", "intent": "nearby_places", "entities": []}
+{"text": "any good schools near this house?", "intent": "nearby_places", "entities": []}
+{"text": "which hospitals are close to it?", "intent": "nearby_places", "entities": []}
+{"text": "is ghar ke paas koi market hai?", "intent": "nearby_places", "entities": []}
+{"text": "flats near UCP under 80k", "intent": "near_search", "entities": [["flats", "PROPERTY_TYPE"], ["UCP", "LANDMARK"], ["80k", "BUDGET"]]}
+{"text": "houses within 15 minutes of LUMS by car", "intent": "near_search", "entities": [["houses", "PROPERTY_TYPE"], ["15 minutes", "DURATION"], ["LUMS", "LANDMARK"], ["car", "TRANSPORT"]]}
+{"text": "rooms near Punjab University for students", "intent": "near_search", "entities": [["rooms", "PROPERTY_TYPE"], ["Punjab University", "LANDMARK"]]}
+{"text": "show me similar flats near FAST under 1 lakh", "intent": "near_search", "entities": [["flats", "PROPERTY_TYPE"], ["FAST", "LANDMARK"], ["1 lakh", "BUDGET"]]}
+{"text": "2 bed apartment within 3 km of Shaukat Khanum", "intent": "near_search", "entities": [["2 bed", "BEDROOMS"], ["apartment", "PROPERTY_TYPE"], ["3 km", "DISTANCE"], ["Shaukat Khanum", "LANDMARK"]]}
+{"text": "Emporium Mall ke paas flat chahiye 60 hazar tak", "intent": "near_search", "entities": [["Emporium Mall", "LANDMARK"], ["flat", "PROPERTY_TYPE"], ["60 hazar", "BUDGET"]]}
+{"text": "compare the first two", "intent": "compare", "entities": []}
+{"text": "compare number 1 and 3 for me", "intent": "compare", "entities": [["1", "ORDINAL"], ["3", "ORDINAL"]]}
+{"text": "which one is better, the second or the fourth?", "intent": "compare", "entities": [["second", "ORDINAL"], ["fourth", "ORDINAL"]]}
+{"text": "pehli aur teesri mein kya farq hai", "intent": "compare", "entities": []}
+{"text": "average rent in Johar Town?", "intent": "area_info", "entities": [["Johar Town", "AREA"]]}
+{"text": "which area is cheapest for a 3 bed house", "intent": "area_info", "entities": [["3 bed", "BEDROOMS"], ["house", "PROPERTY_TYPE"]]}
+{"text": "tell me about Bahria Town", "intent": "area_info", "entities": [["Bahria Town", "AREA"]]}
+{"text": "is Model Town a good area for families?", "intent": "area_info", "entities": [["Model Town", "AREA"]]}
+{"text": "Wapda Town rehne ke liye kaisa hai?", "intent": "area_info", "entities": [["Wapda Town", "AREA"]]}
+{"text": "3 bed house for rent in Gulberg 3 under 2 lakh", "intent": "search_property", "entities": [["3 bed", "BEDROOMS"], ["house", "PROPERTY_TYPE"], ["rent", "PURPOSE"], ["Gulberg 3", "AREA"], ["2 lakh", "BUDGET"]]}
+{"text": "upper portion in Allama Iqbal Town for rent", "intent": "search_property", "entities": [["upper portion", "PROPERTY_TYPE"], ["Allama Iqbal Town", "AREA"], ["rent", "PURPOSE"]]}

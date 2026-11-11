@@ -1,0 +1,26 @@
+{
+  "labels":[
+    "area_info",
+    "book_property",
+    "compare",
+    "distance",
+    "greeting",
+    "help",
+    "near_search",
+    "nearby_places",
+    "price_inquiry",
+    "property_details",
+    "property_question",
+    "property_with_travel",
+    "refine_search",
+    "reset",
+    "search_property",
+    "show_more",
+    "thanks",
+    "travel_cost",
+    "travel_time",
+    "travel_time_cost"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

@@ -1,0 +1,11 @@
+# RMS property chatbot (Python 3.11)
+fastapi==0.115.6
+starlette==0.41.3
+uvicorn==0.34.0
+pydantic==2.10.4
+pymongo==4.10.1
+spacy==3.8.7
+rapidfuzz==3.11.0
+httpx==0.28.1
+python-dotenv==1.0.1
+pytest==8.3.4
