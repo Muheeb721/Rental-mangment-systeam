@@ -1,0 +1,32 @@
+{
+  "name": "rms-backend",
+  "version": "1.0.0",
+  "description": "Backend for RMS admin-user action tracking and notifications",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test --test-concurrency=1",
+    "backup": "node scripts/backup_collections.js",
+    "seed:rent-showcase": "node scripts/seed-rental-showcase.js",
+    "export:places": "node scripts/export-lahore-places.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^8.8.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.4.0",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^7.0.0",
+    "pdfkit": "^0.20.2",
+    "socket.io": "^4.8.3"
+  }
+}
