@@ -1,0 +1,3814 @@
+{
+ "areas": [
+  {
+   "type": "area",
+   "slug": "dha-lahore",
+   "name": "DHA Lahore",
+   "parent": null,
+   "tier": "premium",
+   "lat": 31.47,
+   "lng": 74.42,
+   "aliases": [
+    "dha",
+    "defence",
+    "defense",
+    "dha lahore",
+    "defence housing authority",
+    "defence lahore"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Phase 3",
+    "Phase 4",
+    "Phase 5",
+    "Phase 6",
+    "Phase 7",
+    "Phase 8",
+    "Phase 9 Town",
+    "Phase 9 Prism",
+    "Phase 10",
+    "Phase 11 (Rahbar)",
+    "Phase 12 (EME)",
+    "Phase 13",
+    "Raya"
+   ],
+   "description": "Defence Housing Authority is Lahore's largest and most sought-after planned community, stretching from the Cantonment towards Bedian and Barki Road. It offers the city's best security, schools, restaurants and commercial hubs, and commands the highest rents and prices.",
+   "city": "Lahore",
+   "displayOrder": 1
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-1",
+   "name": "DHA Phase 1",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.479,
+   "lng": 74.392,
+   "aliases": [
+    "dha 1",
+    "defence phase 1",
+    "dha phase 1",
+    "dha ph 1",
+    "dha-1",
+    "phase 1 dha",
+    "defence 1",
+    "dha phase 1 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block D",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block N",
+    "Block P"
+   ],
+   "description": "The oldest phase of DHA next to the Cantt, with mature trees, large kanal houses and quick access to Walton Road and the Ghazi Road interchange. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 2
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-2",
+   "name": "DHA Phase 2",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.461,
+   "lng": 74.415,
+   "aliases": [
+    "dha 2",
+    "defence phase 2",
+    "dha phase 2",
+    "dha ph 2",
+    "dha-2",
+    "phase 2 dha",
+    "defence 2",
+    "dha phase 2 lahore"
+   ],
+   "subdivisions": [
+    "Block Q",
+    "Block R",
+    "Block S",
+    "Block T",
+    "Block U",
+    "Block V"
+   ],
+   "description": "A quiet, established phase near LUMS and the DHA Phase 5 commercial belt, popular with faculty and families. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 3
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-3",
+   "name": "DHA Phase 3",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.476,
+   "lng": 74.379,
+   "aliases": [
+    "dha 3",
+    "defence phase 3",
+    "y block",
+    "xx block",
+    "dha phase 3",
+    "dha ph 3",
+    "dha-3",
+    "phase 3 dha",
+    "defence 3",
+    "dha phase 3 lahore"
+   ],
+   "subdivisions": [
+    "Block W",
+    "Block X",
+    "Block XX",
+    "Block Y",
+    "Block Z"
+   ],
+   "description": "Home to the famous Y Block market and the Sheikh Zayed / XX commercial area, Phase 3 mixes classic kanal homes with lively food streets. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 4
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-4",
+   "name": "DHA Phase 4",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.466,
+   "lng": 74.388,
+   "aliases": [
+    "dha 4",
+    "defence phase 4",
+    "dha phase 4",
+    "dha ph 4",
+    "dha-4",
+    "phase 4 dha",
+    "defence 4",
+    "dha phase 4 lahore"
+   ],
+   "subdivisions": [
+    "Block AA",
+    "Block BB",
+    "Block CC",
+    "Block DD",
+    "Block EE",
+    "Block FF",
+    "Block GG",
+    "Block HH"
+   ],
+   "description": "A central, well-connected phase between Phases 3 and 5 with good schools and the AA / CC commercial markets. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 5
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-5",
+   "name": "DHA Phase 5",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.464,
+   "lng": 74.409,
+   "aliases": [
+    "dha 5",
+    "defence phase 5",
+    "dha v",
+    "dha phase 5",
+    "dha ph 5",
+    "dha-5",
+    "phase 5 dha",
+    "defence 5",
+    "dha phase 5 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block M",
+    "CCA Block"
+   ],
+   "description": "One of the most prestigious phases, beside LUMS, the Phase 5 CCA commercial hub and Jalal Sons / Packages-side boulevards. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 6
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-6",
+   "name": "DHA Phase 6",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.471,
+   "lng": 74.452,
+   "aliases": [
+    "dha 6",
+    "defence phase 6",
+    "dha phase 6",
+    "dha ph 6",
+    "dha-6",
+    "phase 6 dha",
+    "defence 6",
+    "dha phase 6 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block M",
+    "Block N",
+    "MB Commercial",
+    "CCA-1"
+   ],
+   "description": "A large, newer phase on the eastern side with the Main Boulevard commercial, Raya golf course nearby and Lahore Garrison University. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 7
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-7",
+   "name": "DHA Phase 7",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.44,
+   "lng": 74.468,
+   "aliases": [
+    "dha 7",
+    "defence phase 7",
+    "dha phase 7",
+    "dha ph 7",
+    "dha-7",
+    "phase 7 dha",
+    "defence 7",
+    "dha phase 7 lahore"
+   ],
+   "subdivisions": [
+    "Block P",
+    "Block Q",
+    "Block R",
+    "Block S",
+    "Block T",
+    "Block U",
+    "Block V",
+    "Block W",
+    "Block X",
+    "Block Y",
+    "Block Z",
+    "Z-1",
+    "Z-2",
+    "Z-3"
+   ],
+   "description": "A fast-developing phase south of Phase 6 near the Ring Road and Bedian Road, offering newer houses at slightly lower prices. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 8
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-8",
+   "name": "DHA Phase 8",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.489,
+   "lng": 74.433,
+   "aliases": [
+    "dha 8",
+    "defence phase 8",
+    "ex park view",
+    "air avenue",
+    "park view dha",
+    "dha phase 8",
+    "dha ph 8",
+    "dha-8",
+    "phase 8 dha",
+    "defence 8",
+    "dha phase 8 lahore"
+   ],
+   "subdivisions": [
+    "Ex Park View",
+    "Ex Air Avenue",
+    "Broadway Commercial",
+    "Block Q",
+    "Block R",
+    "Block S",
+    "Block T",
+    "Block U",
+    "Block V",
+    "Block W",
+    "Block Z"
+   ],
+   "description": "Next to the airport, Phase 8 (including the ex Park View and Air Avenue blocks) has Broadway commercial, Goldcrest and Penta Square apartments. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 9
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-9-town",
+   "name": "DHA Phase 9 Town",
+   "parent": "dha-lahore",
+   "tier": "upper-mid",
+   "lat": 31.444,
+   "lng": 74.429,
+   "aliases": [
+    "dha 9 town",
+    "dha nine town",
+    "9 town",
+    "dha town",
+    "dha phase 9",
+    "dha ph 9",
+    "dha-9",
+    "phase 9 dha",
+    "defence 9",
+    "dha phase 9 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E"
+   ],
+   "description": "A compact phase of 5 and 10 marla homes near the Ring Road, giving DHA amenities at a more affordable price point. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 10
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-9-prism",
+   "name": "DHA Phase 9 Prism",
+   "parent": "dha-lahore",
+   "tier": "upper-mid",
+   "lat": 31.478,
+   "lng": 74.502,
+   "aliases": [
+    "dha 9",
+    "dha phase 9",
+    "dha prism",
+    "9 prism",
+    "dha ph 9",
+    "dha-9",
+    "phase 9 dha",
+    "defence 9",
+    "dha phase 9 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block M",
+    "Block N",
+    "Block P",
+    "Block Q",
+    "Block R"
+   ],
+   "description": "A large developing phase along the Ring Road and Barki Road with many plots and newly built houses. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 11
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-10",
+   "name": "DHA Phase 10",
+   "parent": "dha-lahore",
+   "tier": "upper-mid",
+   "lat": 31.482,
+   "lng": 74.53,
+   "aliases": [
+    "dha 10",
+    "defence phase 10",
+    "dha phase 10",
+    "dha ph 10",
+    "dha-10",
+    "phase 10 dha",
+    "defence 10",
+    "dha phase 10 lahore"
+   ],
+   "subdivisions": [
+    "Sector A",
+    "Sector B",
+    "Sector C",
+    "Sector D"
+   ],
+   "description": "An emerging, mostly plot-based phase beyond Phase 9 Prism off Barki Road, aimed at investors and future builders. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 12
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-11",
+   "name": "DHA Phase 11 (Rahbar)",
+   "parent": "dha-lahore",
+   "tier": "upper-mid",
+   "lat": 31.384,
+   "lng": 74.25,
+   "aliases": [
+    "dha 11",
+    "dha rahbar",
+    "rahbar",
+    "halloki gardens",
+    "dha halloki",
+    "dha phase 11",
+    "dha ph 11",
+    "dha-11",
+    "phase 11 dha",
+    "defence 11",
+    "dha phase 11 lahore"
+   ],
+   "subdivisions": [
+    "Rahbar Sector 1",
+    "Rahbar Sector 2",
+    "Rahbar Sector 3",
+    "Rahbar Sector 4",
+    "Halloki Gardens"
+   ],
+   "description": "Located on Defence Road off Raiwind Road, Phase 11 (Rahbar and Halloki Gardens) is the affordable DHA option on the western side of the city. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 13
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-12",
+   "name": "DHA Phase 12 (EME)",
+   "parent": "dha-lahore",
+   "tier": "upper-mid",
+   "lat": 31.452,
+   "lng": 74.236,
+   "aliases": [
+    "dha 12",
+    "dha eme",
+    "dha eme sector",
+    "eme sector",
+    "dha phase 12",
+    "dha ph 12",
+    "dha-12",
+    "phase 12 dha",
+    "defence 12",
+    "dha phase 12 lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D"
+   ],
+   "description": "The DHA EME sector on Canal Road near Thokar Niaz Baig and Multan Road, convenient for Johar Town and the motorway. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 14
+  },
+  {
+   "type": "area",
+   "slug": "dha-phase-13",
+   "name": "DHA Phase 13",
+   "parent": "dha-lahore",
+   "tier": "mid",
+   "lat": 31.406,
+   "lng": 74.465,
+   "aliases": [
+    "dha 13",
+    "defence phase 13",
+    "dha phase 13",
+    "dha ph 13",
+    "dha-13",
+    "phase 13 dha",
+    "defence 13",
+    "dha phase 13 lahore"
+   ],
+   "subdivisions": [
+    "Sector A",
+    "Sector B"
+   ],
+   "description": "The newest DHA phase, still largely in development off Bedian Road and the southern Ring Road loop, traded mostly as files and plots. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 15
+  },
+  {
+   "type": "area",
+   "slug": "dha-raya",
+   "name": "DHA Raya",
+   "parent": "dha-lahore",
+   "tier": "premium",
+   "lat": 31.459,
+   "lng": 74.478,
+   "aliases": [
+    "raya",
+    "dha raya golf",
+    "raya fairways"
+   ],
+   "subdivisions": [
+    "Fairways Commercial",
+    "Raya Golf Residences"
+   ],
+   "description": "An exclusive golf-course community beside DHA Phase 6 with luxury villas, apartments and the Raya Fairways commercial. Like the rest of DHA Lahore it has gated security, wide boulevards, parks, mosques and its own commercial areas.",
+   "city": "Lahore",
+   "displayOrder": 16
+  },
+  {
+   "type": "area",
+   "slug": "askari",
+   "name": "Askari (Lahore)",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.51,
+   "lng": 74.395,
+   "aliases": [
+    "askari",
+    "askari lahore",
+    "askari housing"
+   ],
+   "subdivisions": [
+    "Askari 1",
+    "Askari 2",
+    "Askari 3",
+    "Askari 4",
+    "Askari 5",
+    "Askari 6",
+    "Askari 7",
+    "Askari 8",
+    "Askari 9",
+    "Askari 10",
+    "Askari 11"
+   ],
+   "description": "Askari is a family of army welfare housing schemes spread across Lahore Cantt and Bedian Road. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 17
+  },
+  {
+   "type": "area",
+   "slug": "askari-1",
+   "name": "Askari 1",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5165,
+   "lng": 74.3712,
+   "aliases": [
+    "askari i",
+    "askari-1",
+    "askari 1 lahore"
+   ],
+   "subdivisions": [],
+   "description": "One of the earliest Askari schemes inside Lahore Cantt, close to Sarwar Road and the Fortress Stadium area. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 18
+  },
+  {
+   "type": "area",
+   "slug": "askari-2",
+   "name": "Askari 2",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.533,
+   "lng": 74.379,
+   "aliases": [
+    "askari ii",
+    "askari-2",
+    "askari 2 lahore"
+   ],
+   "subdivisions": [],
+   "description": "Near Tufail Road in the Cantt, minutes from CMH, Mall of Lahore and Fortress Square. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 19
+  },
+  {
+   "type": "area",
+   "slug": "askari-3",
+   "name": "Askari 3",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5245,
+   "lng": 74.388,
+   "aliases": [
+    "askari iii",
+    "askari-3",
+    "askari 3 lahore"
+   ],
+   "subdivisions": [],
+   "description": "A compact Cantt scheme with apartments and houses near the airport road. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 20
+  },
+  {
+   "type": "area",
+   "slug": "askari-4",
+   "name": "Askari 4",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.519,
+   "lng": 74.383,
+   "aliases": [
+    "askari iv",
+    "askari-4",
+    "askari 4 lahore"
+   ],
+   "subdivisions": [],
+   "description": "Apartment-focused scheme in Cantt with quick access to Gulberg and the airport. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 21
+  },
+  {
+   "type": "area",
+   "slug": "askari-5",
+   "name": "Askari 5",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.507,
+   "lng": 74.378,
+   "aliases": [
+    "askari v",
+    "askari-5",
+    "askari 5 lahore"
+   ],
+   "subdivisions": [],
+   "description": "Located between Gulberg and the Cantt near Cavalry Ground, popular with officers' families. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 22
+  },
+  {
+   "type": "area",
+   "slug": "askari-6",
+   "name": "Askari 6",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5005,
+   "lng": 74.408,
+   "aliases": [
+    "askari vi",
+    "askari-6",
+    "askari 6 lahore"
+   ],
+   "subdivisions": [],
+   "description": "Close to the airport and DHA Phase 8, with apartments and family houses. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 23
+  },
+  {
+   "type": "area",
+   "slug": "askari-7",
+   "name": "Askari 7",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5365,
+   "lng": 74.391,
+   "aliases": [
+    "askari vii",
+    "askari-7",
+    "askari 7 lahore"
+   ],
+   "subdivisions": [],
+   "description": "A small Cantt scheme near Shami Road with apartment blocks and green belts. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 24
+  },
+  {
+   "type": "area",
+   "slug": "askari-8",
+   "name": "Askari 8",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.511,
+   "lng": 74.405,
+   "aliases": [
+    "askari viii",
+    "askari-8",
+    "askari 8 lahore"
+   ],
+   "subdivisions": [],
+   "description": "On the airport side of the Cantt with low-rise apartments and parks. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 25
+  },
+  {
+   "type": "area",
+   "slug": "askari-9",
+   "name": "Askari 9",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5195,
+   "lng": 74.411,
+   "aliases": [
+    "askari ix",
+    "askari-9",
+    "askari 9 lahore"
+   ],
+   "subdivisions": [],
+   "description": "A gated Cantt scheme near Zarrar Shaheed Road with houses and flats. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 26
+  },
+  {
+   "type": "area",
+   "slug": "askari-10",
+   "name": "Askari 10",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.5043,
+   "lng": 74.4006,
+   "aliases": [
+    "askari x",
+    "askari-10",
+    "askari 10 lahore"
+   ],
+   "subdivisions": [
+    "Sector A",
+    "Sector B",
+    "Sector C",
+    "Sector D",
+    "Sector E",
+    "Sector F",
+    "Sector S-1",
+    "Sector S-2",
+    "Sector S-3"
+   ],
+   "description": "The largest Cantt Askari scheme next to the airport, known for its multi-storey apartment sectors and family houses. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 27
+  },
+  {
+   "type": "area",
+   "slug": "askari-11",
+   "name": "Askari 11",
+   "parent": "askari",
+   "tier": "upper-mid",
+   "lat": 31.4512,
+   "lng": 74.4517,
+   "aliases": [
+    "askari xi",
+    "askari-11",
+    "askari 11 lahore"
+   ],
+   "subdivisions": [
+    "Sector A",
+    "Sector B",
+    "Sector C",
+    "Sector D"
+   ],
+   "description": "On Bedian Road beside DHA Phases 6 and 7, offering apartments and houses at better value than neighbouring DHA. Askari societies are army-managed gated communities with strict security, maintained parks and a calm, family-oriented feel.",
+   "city": "Lahore",
+   "displayOrder": 28
+  },
+  {
+   "type": "area",
+   "slug": "gulberg",
+   "name": "Gulberg",
+   "parent": null,
+   "tier": "premium",
+   "lat": 31.515,
+   "lng": 74.345,
+   "aliases": [
+    "gulberg lahore",
+    "gulburg"
+   ],
+   "subdivisions": [
+    "Gulberg I",
+    "Gulberg II",
+    "Gulberg III",
+    "Gulberg IV",
+    "Gulberg V",
+    "MM Alam Road",
+    "Main Boulevard"
+   ],
+   "description": "Gulberg is Lahore's central business and lifestyle district, home to MM Alam Road, Liberty Market and the main corporate offices. It combines old kanal bungalows with high-rise apartments and offices.",
+   "city": "Lahore",
+   "displayOrder": 29
+  },
+  {
+   "type": "area",
+   "slug": "gulberg-1",
+   "name": "Gulberg I",
+   "parent": "gulberg",
+   "tier": "premium",
+   "lat": 31.5265,
+   "lng": 74.3365,
+   "aliases": [
+    "gulberg 1",
+    "gulberg-1"
+   ],
+   "subdivisions": [],
+   "description": "The northern part of Gulberg near Jail Road and Kalma Chowk, with large old houses and office conversions. Close to Kinnaird, LCWU and Services Hospital.",
+   "city": "Lahore",
+   "displayOrder": 30
+  },
+  {
+   "type": "area",
+   "slug": "gulberg-2",
+   "name": "Gulberg II",
+   "parent": "gulberg",
+   "tier": "premium",
+   "lat": 31.52,
+   "lng": 74.348,
+   "aliases": [
+    "gulberg 2",
+    "gulberg-2"
+   ],
+   "subdivisions": [],
+   "description": "A leafy residential belt between Main Boulevard and the Canal with prestigious kanal homes. Walking distance to Hafeez Centre and Main Market.",
+   "city": "Lahore",
+   "displayOrder": 31
+  },
+  {
+   "type": "area",
+   "slug": "gulberg-3",
+   "name": "Gulberg III",
+   "parent": "gulberg",
+   "tier": "premium",
+   "lat": 31.509,
+   "lng": 74.344,
+   "aliases": [
+    "gulberg 3",
+    "gulberg-3",
+    "liberty"
+   ],
+   "subdivisions": [],
+   "description": "The commercial heart of Gulberg with Liberty Market, Firdous Market and MM Alam Road restaurants. Mix of apartments, offices and family houses.",
+   "city": "Lahore",
+   "displayOrder": 32
+  },
+  {
+   "type": "area",
+   "slug": "gulberg-4",
+   "name": "Gulberg IV",
+   "parent": "gulberg",
+   "tier": "premium",
+   "lat": 31.505,
+   "lng": 74.355,
+   "aliases": [
+    "gulberg 4",
+    "gulberg-4"
+   ],
+   "subdivisions": [],
+   "description": "A quieter residential section east of Liberty towards the Cantt. Popular with families wanting central Lahore without the commercial bustle.",
+   "city": "Lahore",
+   "displayOrder": 33
+  },
+  {
+   "type": "area",
+   "slug": "gulberg-5",
+   "name": "Gulberg V",
+   "parent": "gulberg",
+   "tier": "premium",
+   "lat": 31.517,
+   "lng": 74.356,
+   "aliases": [
+    "gulberg 5",
+    "gulberg-5"
+   ],
+   "subdivisions": [],
+   "description": "Bordering the Cantt and Canal, Gulberg V has upscale homes and is close to Lahore American School and the Canal Road corridor.",
+   "city": "Lahore",
+   "displayOrder": 34
+  },
+  {
+   "type": "area",
+   "slug": "johar-town",
+   "name": "Johar Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.4697,
+   "lng": 74.2728,
+   "aliases": [
+    "johar town",
+    "joher town",
+    "johartown",
+    "jauhar town",
+    "johar town phase 1",
+    "johar town phase 2"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block M",
+    "Block N",
+    "Block P",
+    "Block Q",
+    "Block R",
+    "R-1 Block",
+    "R-2 Block",
+    "R-3 Block",
+    "Phase 1",
+    "Phase 2"
+   ],
+   "description": "Johar Town is a large LDA scheme in south-west Lahore and a hub for students and young families thanks to UCP, UMT, Shaukat Khanum and Emporium Mall. It offers good-value houses, portions and flats with easy access to the Canal, Orange Line and Ring Road.",
+   "city": "Lahore",
+   "displayOrder": 35
+  },
+  {
+   "type": "area",
+   "slug": "model-town",
+   "name": "Model Town",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.483,
+   "lng": 74.326,
+   "aliases": [
+    "model town lahore",
+    "modeltown"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block M",
+    "Block N",
+    "Block P",
+    "Block Q",
+    "Model Town Extension",
+    "Model Town Link Road"
+   ],
+   "description": "Model Town is a historic, green, circular-plan society with large plots and a famous central park. It is quiet and prestigious while sitting next to Ferozepur Road, the Metro Bus and Kalma Chowk.",
+   "city": "Lahore",
+   "displayOrder": 36
+  },
+  {
+   "type": "area",
+   "slug": "garden-town",
+   "name": "Garden Town",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.502,
+   "lng": 74.32,
+   "aliases": [
+    "garden town lahore"
+   ],
+   "subdivisions": [
+    "Ali Block",
+    "Abubakar Block",
+    "Usman Block",
+    "Ahmed Block",
+    "Sher Shah Block",
+    "Barkat Market"
+   ],
+   "description": "Garden Town is a central, established neighbourhood near Barkat Market, Kalma Chowk and the Canal. It suits families who want central Lahore with older, spacious houses.",
+   "city": "Lahore",
+   "displayOrder": 37
+  },
+  {
+   "type": "area",
+   "slug": "faisal-town",
+   "name": "Faisal Town",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.479,
+   "lng": 74.306,
+   "aliases": [
+    "faisal town lahore",
+    "faisaltown"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Akbar Chowk"
+   ],
+   "description": "Faisal Town lies between Model Town and Johar Town, home to FAST University and close to Jinnah Hospital and Akbar Chowk. It offers houses and portions at upper-mid prices.",
+   "city": "Lahore",
+   "displayOrder": 38
+  },
+  {
+   "type": "area",
+   "slug": "wapda-town",
+   "name": "Wapda Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.437,
+   "lng": 74.265,
+   "aliases": [
+    "wapda",
+    "wapda town lahore",
+    "wapda town phase 1",
+    "wapda town phase 2",
+    "wapda society"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K"
+   ],
+   "description": "Wapda Town is a well-planned employees' housing society near Johar Town and Raiwind Road with wide roads and parks. It offers family houses and portions at mid-range prices.",
+   "city": "Lahore",
+   "displayOrder": 39
+  },
+  {
+   "type": "area",
+   "slug": "lahore-cantt",
+   "name": "Lahore Cantt",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.522,
+   "lng": 74.39,
+   "aliases": [
+    "cantt",
+    "cantonment",
+    "lahore cantonment",
+    "saddar",
+    "sarwar road",
+    "walton"
+   ],
+   "subdivisions": [
+    "Sarwar Road",
+    "Tufail Road",
+    "Saddar",
+    "Walton Road",
+    "Abid Majeed Road"
+   ],
+   "description": "Lahore Cantonment is a secure, green military-administered area with wide roads and colonial-era bungalows. It is close to the airport, CMH, Fortress Square and Gulberg.",
+   "city": "Lahore",
+   "displayOrder": 40
+  },
+  {
+   "type": "area",
+   "slug": "bahria-town",
+   "name": "Bahria Town Lahore",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.368,
+   "lng": 74.185,
+   "aliases": [
+    "bahria",
+    "bahria town",
+    "bahria town lahore",
+    "btl"
+   ],
+   "subdivisions": [
+    "Sector A",
+    "Sector B",
+    "Sector C",
+    "Sector D",
+    "Sector E",
+    "Sector F",
+    "Overseas A",
+    "Overseas B",
+    "Jasmine Block",
+    "Takbeer Block",
+    "Talha Block",
+    "Usman Block",
+    "Iqbal Block",
+    "Shaheen Block",
+    "Tulip Block",
+    "Gulbahar Block",
+    "Janiper Block",
+    "Nargis Block",
+    "Rafi Block",
+    "Ghaznavi Block"
+   ],
+   "description": "Bahria Town Lahore is a large self-contained gated city off Canal Road and the motorway with its own hospital, schools, the Grand Jamia Mosque and the Eiffel Tower replica. Houses are modern and prices are good value for the amenities, though it is far from central Lahore.",
+   "city": "Lahore",
+   "displayOrder": 41
+  },
+  {
+   "type": "area",
+   "slug": "bahria-orchard",
+   "name": "Bahria Orchard",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.352,
+   "lng": 74.238,
+   "aliases": [
+    "bahria orchard",
+    "orchard",
+    "bahria orchard phase 1",
+    "bahria orchard phase 2"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Phase 3",
+    "Phase 4",
+    "Central Block",
+    "Eastern Block",
+    "Northern Block",
+    "Southern Block",
+    "OLC Block"
+   ],
+   "description": "Bahria Orchard is Bahria's more affordable gated community on Raiwind Road. It has planned blocks, parks and commercial areas, aimed at families seeking a gated lifestyle on a mid budget.",
+   "city": "Lahore",
+   "displayOrder": 42
+  },
+  {
+   "type": "area",
+   "slug": "lake-city",
+   "name": "Lake City",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.378,
+   "lng": 74.245,
+   "aliases": [
+    "lake city lahore",
+    "lakecity"
+   ],
+   "subdivisions": [
+    "Sector M-1",
+    "Sector M-2",
+    "Sector M-3",
+    "Sector M-5",
+    "Sector M-7",
+    "Golf Estate"
+   ],
+   "description": "Lake City is an upscale gated community on Raiwind Road with a golf course and a large lake. It offers modern houses and premium plots on the south-western edge of the city.",
+   "city": "Lahore",
+   "displayOrder": 43
+  },
+  {
+   "type": "area",
+   "slug": "valencia",
+   "name": "Valencia Town",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.425,
+   "lng": 74.242,
+   "aliases": [
+    "valencia",
+    "valencia housing society",
+    "valencia town"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block M",
+    "Block N"
+   ],
+   "description": "Valencia is a mature, well-maintained gated society on Defence Road near Wapda Town. It offers spacious houses, parks and good security.",
+   "city": "Lahore",
+   "displayOrder": 44
+  },
+  {
+   "type": "area",
+   "slug": "eme-society",
+   "name": "EME Society",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.466,
+   "lng": 74.234,
+   "aliases": [
+    "eme",
+    "eme housing",
+    "eme society lahore",
+    "eme cooperative"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K"
+   ],
+   "description": "EME Cooperative Housing Society sits on Canal Road near Thokar Niaz Baig and Multan Road. It is a secure, planned society with wide roads and family houses.",
+   "city": "Lahore",
+   "displayOrder": 45
+  },
+  {
+   "type": "area",
+   "slug": "state-life",
+   "name": "State Life Housing Society",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.456,
+   "lng": 74.444,
+   "aliases": [
+    "state life",
+    "statelife",
+    "state life society"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Phase 1",
+    "Phase 2"
+   ],
+   "description": "State Life Housing Society is a planned society near DHA Phases 6 and 7. It offers DHA-adjacent living at lower prices.",
+   "city": "Lahore",
+   "displayOrder": 46
+  },
+  {
+   "type": "area",
+   "slug": "paragon-city",
+   "name": "Paragon City",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.49,
+   "lng": 74.48,
+   "aliases": [
+    "paragon",
+    "paragon city lahore"
+   ],
+   "subdivisions": [
+    "Orchard Block",
+    "Grove Block",
+    "Imperial Block",
+    "Woods Block",
+    "Executive Block",
+    "Mid City"
+   ],
+   "description": "Paragon City is a gated community off Barki Road near the Ring Road and DHA Phase 8. It offers new houses with parks and its own commercial area.",
+   "city": "Lahore",
+   "displayOrder": 47
+  },
+  {
+   "type": "area",
+   "slug": "park-view-city",
+   "name": "Park View City",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.472,
+   "lng": 74.215,
+   "aliases": [
+    "park view city",
+    "parkview city",
+    "park view city lahore"
+   ],
+   "subdivisions": [
+    "Executive Block",
+    "Platinum Block",
+    "Jade Block",
+    "Overseas Block",
+    "Tulip Block",
+    "Crystal Block"
+   ],
+   "description": "Park View City is a newer gated society on Multan Road near Thokar and the motorway. It markets modern amenities and attractive installment plans.",
+   "city": "Lahore",
+   "displayOrder": 48
+  },
+  {
+   "type": "area",
+   "slug": "central-park",
+   "name": "Central Park Housing Scheme",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.388,
+   "lng": 74.374,
+   "aliases": [
+    "central park",
+    "central park lahore",
+    "central park housing"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H"
+   ],
+   "description": "Central Park is a large planned scheme on Ferozepur Road near the Ring Road. It offers affordable plots and houses with parks, a central commercial and good connectivity to DHA.",
+   "city": "Lahore",
+   "displayOrder": 49
+  },
+  {
+   "type": "area",
+   "slug": "allama-iqbal-town",
+   "name": "Allama Iqbal Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.513,
+   "lng": 74.289,
+   "aliases": [
+    "iqbal town",
+    "allama iqbal town",
+    "aiqbal town",
+    "moon market"
+   ],
+   "subdivisions": [
+    "Karim Block",
+    "Kashmir Block",
+    "Nishtar Block",
+    "Pak Block",
+    "Ravi Block",
+    "Sikandar Block",
+    "Umar Block",
+    "Neelam Block",
+    "Hunza Block",
+    "Chenab Block",
+    "Satluj Block",
+    "Gulshan Block",
+    "Kamran Block",
+    "Asif Block"
+   ],
+   "description": "Allama Iqbal Town is a large, established LDA neighbourhood with Moon Market and Gulshan-e-Iqbal Park. It has a dense mix of houses, portions and shops at mid-range prices.",
+   "city": "Lahore",
+   "displayOrder": 50
+  },
+  {
+   "type": "area",
+   "slug": "township",
+   "name": "Township",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.456,
+   "lng": 74.301,
+   "aliases": [
+    "township lahore",
+    "township sector a",
+    "township sector b"
+   ],
+   "subdivisions": [
+    "Sector A-1",
+    "Sector A-2",
+    "Sector B-1",
+    "Sector B-2",
+    "Sector C-1",
+    "Sector C-2"
+   ],
+   "description": "Township is a busy, affordable LDA neighbourhood near College Road and Green Town. It offers compact houses and portions popular with families on a budget and students.",
+   "city": "Lahore",
+   "displayOrder": 51
+  },
+  {
+   "type": "area",
+   "slug": "gulshan-e-ravi",
+   "name": "Gulshan-e-Ravi",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.544,
+   "lng": 74.283,
+   "aliases": [
+    "gulshan e ravi",
+    "gulshan ravi",
+    "gulshane ravi"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G"
+   ],
+   "description": "Gulshan-e-Ravi is an established residential area near Bund Road and Samanabad. It offers affordable houses and portions with an Orange Line station nearby.",
+   "city": "Lahore",
+   "displayOrder": 52
+  },
+  {
+   "type": "area",
+   "slug": "samanabad",
+   "name": "Samanabad",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.535,
+   "lng": 74.299,
+   "aliases": [
+    "samanabad lahore",
+    "samnabad"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block N"
+   ],
+   "description": "Samanabad is a dense, older middle-class neighbourhood west of Ichhra. It has busy markets, schools and affordable rents with easy Orange Line access.",
+   "city": "Lahore",
+   "displayOrder": 53
+  },
+  {
+   "type": "area",
+   "slug": "shadman",
+   "name": "Shadman",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.544,
+   "lng": 74.333,
+   "aliases": [
+    "shadman lahore",
+    "shadman colony",
+    "shadman 1",
+    "shadman 2"
+   ],
+   "subdivisions": [
+    "Shadman 1",
+    "Shadman 2",
+    "Shadman Market"
+   ],
+   "description": "Shadman is a central, upmarket neighbourhood off Jail Road near Services Hospital and the Shadman Market. It offers older houses on good plots close to the Mall and Gulberg.",
+   "city": "Lahore",
+   "displayOrder": 54
+  },
+  {
+   "type": "area",
+   "slug": "garhi-shahu",
+   "name": "Garhi Shahu",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.564,
+   "lng": 74.341,
+   "aliases": [
+    "garhi shahu",
+    "garhi shahoo",
+    "gari shahu"
+   ],
+   "subdivisions": [],
+   "description": "Garhi Shahu is an old central neighbourhood between the Railway Station and Dharampura. It is dense and busy with affordable flats and portions.",
+   "city": "Lahore",
+   "displayOrder": 55
+  },
+  {
+   "type": "area",
+   "slug": "mall-road",
+   "name": "Mall Road",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.56,
+   "lng": 74.326,
+   "aliases": [
+    "the mall",
+    "mall road lahore",
+    "shahrah e quaid e azam",
+    "upper mall",
+    "lower mall"
+   ],
+   "subdivisions": [
+    "Upper Mall",
+    "Lower Mall",
+    "Charing Cross",
+    "Regal Chowk"
+   ],
+   "description": "Mall Road is Lahore's colonial boulevard with government buildings, the High Court, Punjab Assembly and heritage shops. Residential options are mostly apartments and offices around Upper Mall.",
+   "city": "Lahore",
+   "displayOrder": 56
+  },
+  {
+   "type": "area",
+   "slug": "cavalry-ground",
+   "name": "Cavalry Ground",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.504,
+   "lng": 74.37,
+   "aliases": [
+    "cavalry",
+    "cavalry ground lahore"
+   ],
+   "subdivisions": [
+    "Street 1-20",
+    "Cavalry Ground Extension"
+   ],
+   "description": "Cavalry Ground is a secure Cantt-adjacent society between Gulberg and DHA Phase 1. It is popular with families wanting central access at slightly lower prices than Gulberg.",
+   "city": "Lahore",
+   "displayOrder": 57
+  },
+  {
+   "type": "area",
+   "slug": "sabzazar",
+   "name": "Sabzazar",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.525,
+   "lng": 74.27,
+   "aliases": [
+    "sabzazar scheme",
+    "sabzazar lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block L",
+    "Block M",
+    "Block P"
+   ],
+   "description": "Sabzazar is a large LDA scheme off Multan Road with affordable houses and portions. It is well served by the Orange Line and local markets.",
+   "city": "Lahore",
+   "displayOrder": 58
+  },
+  {
+   "type": "area",
+   "slug": "pcsir",
+   "name": "PCSIR Housing Society",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.458,
+   "lng": 74.283,
+   "aliases": [
+    "pcsir",
+    "pcsir society",
+    "pcsir phase 1",
+    "pcsir phase 2",
+    "pcsir housing"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2"
+   ],
+   "description": "PCSIR Housing Society is a planned scheme next to Johar Town and UMT. It is quiet and green with family houses at mid-range prices.",
+   "city": "Lahore",
+   "displayOrder": 59
+  },
+  {
+   "type": "area",
+   "slug": "nfc",
+   "name": "NFC Society",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.456,
+   "lng": 74.268,
+   "aliases": [
+    "nfc",
+    "nfc society",
+    "nfc phase 1",
+    "nfc phase 2"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Block A",
+    "Block B",
+    "Block C"
+   ],
+   "description": "NFC Employees Cooperative Housing Society lies near Wapda Town and Johar Town. It offers well-kept streets and family homes at mid prices.",
+   "city": "Lahore",
+   "displayOrder": 60
+  },
+  {
+   "type": "area",
+   "slug": "punjab-coop",
+   "name": "Punjab Cooperative Housing Society",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.481,
+   "lng": 74.382,
+   "aliases": [
+    "punjab society",
+    "punjab coop",
+    "punjab cooperative housing society",
+    "pchs"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F"
+   ],
+   "description": "Punjab Cooperative Housing Society sits beside DHA Phases 3 and 4 off Ghazi Road. It offers DHA-side living with lower prices and good security.",
+   "city": "Lahore",
+   "displayOrder": 61
+  },
+  {
+   "type": "area",
+   "slug": "canal-garden",
+   "name": "Canal Garden",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.395,
+   "lng": 74.225,
+   "aliases": [
+    "canal garden",
+    "canal gardens"
+   ],
+   "subdivisions": [
+    "Block AA",
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E"
+   ],
+   "description": "Canal Garden is a gated society on Canal Road near Bahria Town. It offers affordable houses with parks and a planned commercial area.",
+   "city": "Lahore",
+   "displayOrder": 62
+  },
+  {
+   "type": "area",
+   "slug": "al-rehman-garden",
+   "name": "Al Rehman Garden",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.605,
+   "lng": 74.415,
+   "aliases": [
+    "al rehman garden",
+    "al rahman garden",
+    "alrehman garden"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Phase 4",
+    "Phase 7"
+   ],
+   "description": "Al Rehman Garden is a large budget-friendly scheme off GT Road in north-east Lahore. It offers 3 to 10 marla houses and plots at accessible prices.",
+   "city": "Lahore",
+   "displayOrder": 63
+  },
+  {
+   "type": "area",
+   "slug": "etihad-town",
+   "name": "Etihad Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.4,
+   "lng": 74.23,
+   "aliases": [
+    "etihad town",
+    "ittehad town",
+    "etihad town phase 1"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Block A",
+    "Block B",
+    "Block C"
+   ],
+   "description": "Etihad Town is a newer gated society off Raiwind Road near the Thokar side. It markets modern infrastructure and installment plans.",
+   "city": "Lahore",
+   "displayOrder": 64
+  },
+  {
+   "type": "area",
+   "slug": "khayaban-e-amin",
+   "name": "Khayaban-e-Amin",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.418,
+   "lng": 74.226,
+   "aliases": [
+    "khayaban e amin",
+    "khayaban amin",
+    "khayabane amin"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block L",
+    "Block M"
+   ],
+   "description": "Khayaban-e-Amin is a gated community on Defence Road near the Raiwind Road junction. It has wide roads, parks and family houses.",
+   "city": "Lahore",
+   "displayOrder": 65
+  },
+  {
+   "type": "area",
+   "slug": "bedian-road",
+   "name": "Bedian Road",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.44,
+   "lng": 74.47,
+   "aliases": [
+    "bedian",
+    "bedian road lahore"
+   ],
+   "subdivisions": [],
+   "description": "Bedian Road is a corridor running south-east from DHA through farmhouses and new schemes. It mixes farmhouses, Askari 11 and newer societies.",
+   "city": "Lahore",
+   "displayOrder": 66
+  },
+  {
+   "type": "area",
+   "slug": "raiwind-road",
+   "name": "Raiwind Road",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.4,
+   "lng": 74.265,
+   "aliases": [
+    "raiwind road",
+    "raiwand road",
+    "raiwind"
+   ],
+   "subdivisions": [],
+   "description": "Raiwind Road runs south from Thokar past many universities and new housing schemes. It offers a mix of budget and mid-range housing.",
+   "city": "Lahore",
+   "displayOrder": 67
+  },
+  {
+   "type": "area",
+   "slug": "ferozepur-road",
+   "name": "Ferozepur Road",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.47,
+   "lng": 74.345,
+   "aliases": [
+    "ferozepur road",
+    "ferozpur road",
+    "firozpur road"
+   ],
+   "subdivisions": [],
+   "description": "Ferozepur Road is a major north-south artery served by the Metro Bus from Kalma Chowk to Gajjumata. It is lined with commercial plazas, Packages Mall and Arfa Technology Park.",
+   "city": "Lahore",
+   "displayOrder": 68
+  },
+  {
+   "type": "area",
+   "slug": "multan-road",
+   "name": "Multan Road",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.498,
+   "lng": 74.255,
+   "aliases": [
+    "multan road lahore"
+   ],
+   "subdivisions": [],
+   "description": "Multan Road is a busy western corridor from Chauburji to Thokar Niaz Baig along the Orange Line. It has affordable housing schemes and markets.",
+   "city": "Lahore",
+   "displayOrder": 69
+  },
+  {
+   "type": "area",
+   "slug": "muslim-town",
+   "name": "Muslim Town",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.508,
+   "lng": 74.308,
+   "aliases": [
+    "muslim town lahore"
+   ],
+   "subdivisions": [],
+   "description": "Muslim Town is an established central area along the Canal near Wahdat Road and PU New Campus. It suits students and families wanting central access.",
+   "city": "Lahore",
+   "displayOrder": 70
+  },
+  {
+   "type": "area",
+   "slug": "mustafa-town",
+   "name": "Mustafa Town",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.5,
+   "lng": 74.265,
+   "aliases": [
+    "mustafa town lahore"
+   ],
+   "subdivisions": [],
+   "description": "Mustafa Town is an affordable residential area off Wahdat Road near Karim Block. It offers compact houses and portions.",
+   "city": "Lahore",
+   "displayOrder": 71
+  },
+  {
+   "type": "area",
+   "slug": "green-town",
+   "name": "Green Town",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.444,
+   "lng": 74.305,
+   "aliases": [
+    "green town lahore"
+   ],
+   "subdivisions": [],
+   "description": "Green Town is a budget-friendly area near Township and Ferozepur Road. It offers dense housing and local markets.",
+   "city": "Lahore",
+   "displayOrder": 72
+  },
+  {
+   "type": "area",
+   "slug": "iqbal-avenue",
+   "name": "Iqbal Avenue",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.464,
+   "lng": 74.29,
+   "aliases": [
+    "iqbal avenue",
+    "iqbal avenue phase 1"
+   ],
+   "subdivisions": [
+    "Phase 1",
+    "Phase 2",
+    "Phase 3"
+   ],
+   "description": "Iqbal Avenue is a planned society beside Johar Town and the Canal. It offers family houses close to UMT and Doctors Hospital.",
+   "city": "Lahore",
+   "displayOrder": 73
+  },
+  {
+   "type": "area",
+   "slug": "revenue-society",
+   "name": "Revenue Society",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.442,
+   "lng": 74.278,
+   "aliases": [
+    "revenue society",
+    "revenue employees society"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B"
+   ],
+   "description": "Revenue Employees Cooperative Housing Society is near Johar Town and Wapda Town. It is a small, quiet society with family houses.",
+   "city": "Lahore",
+   "displayOrder": 74
+  },
+  {
+   "type": "area",
+   "slug": "tariq-gardens",
+   "name": "Tariq Gardens",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.472,
+   "lng": 74.262,
+   "aliases": [
+    "tariq garden",
+    "tariq gardens"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E"
+   ],
+   "description": "Tariq Gardens is a gated society off Canal Road near Johar Town. It offers family homes with easy access to Emporium Mall and Thokar.",
+   "city": "Lahore",
+   "displayOrder": 75
+  },
+  {
+   "type": "area",
+   "slug": "architects-engineers",
+   "name": "Architects Engineers Society",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.46,
+   "lng": 74.262,
+   "aliases": [
+    "architects engineers",
+    "aecs",
+    "architect engineer society"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block D",
+    "Block F",
+    "Block G",
+    "Block H"
+   ],
+   "description": "Architects & Engineers Housing Society is a planned society near Johar Town and Shaukat Khanum. It has wide roads and family houses.",
+   "city": "Lahore",
+   "displayOrder": 76
+  },
+  {
+   "type": "area",
+   "slug": "jubilee-town",
+   "name": "Jubilee Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.43,
+   "lng": 74.24,
+   "aliases": [
+    "jubilee town lahore"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F"
+   ],
+   "description": "Jubilee Town is a gated society on Raiwind Road near Thokar. It offers family houses at mid prices.",
+   "city": "Lahore",
+   "displayOrder": 77
+  },
+  {
+   "type": "area",
+   "slug": "izmir-town",
+   "name": "Izmir Town",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.422,
+   "lng": 74.24,
+   "aliases": [
+    "izmir town",
+    "izmir society"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F",
+    "Block G",
+    "Block H",
+    "Block J",
+    "Block K",
+    "Block L",
+    "Block N",
+    "Block P"
+   ],
+   "description": "Izmir Town is a planned society off Canal and Raiwind Road near Bahria Town. It offers affordable family houses.",
+   "city": "Lahore",
+   "displayOrder": 78
+  },
+  {
+   "type": "area",
+   "slug": "sukh-chayn",
+   "name": "Sukh Chayn Gardens",
+   "parent": null,
+   "tier": "upper-mid",
+   "lat": 31.37,
+   "lng": 74.235,
+   "aliases": [
+    "sukh chayn",
+    "sukh chain gardens",
+    "sukh chayn gardens"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C",
+    "Block D",
+    "Block E",
+    "Block F"
+   ],
+   "description": "Sukh Chayn Gardens is a well-maintained gated society off Raiwind Road near Lake City. It offers good security and modern houses.",
+   "city": "Lahore",
+   "displayOrder": 79
+  },
+  {
+   "type": "area",
+   "slug": "ichhra",
+   "name": "Ichhra",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.53,
+   "lng": 74.315,
+   "aliases": [
+    "ichra",
+    "ichhra bazaar"
+   ],
+   "subdivisions": [],
+   "description": "Ichhra is a dense, historic neighbourhood along Ferozepur Road known for its huge cloth bazaar. It offers affordable flats and portions next to the Metro Bus.",
+   "city": "Lahore",
+   "displayOrder": 80
+  },
+  {
+   "type": "area",
+   "slug": "krishan-nagar",
+   "name": "Krishan Nagar",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.555,
+   "lng": 74.308,
+   "aliases": [
+    "krishan nagar",
+    "krishna nagar",
+    "islampura"
+   ],
+   "subdivisions": [],
+   "description": "Krishan Nagar (Islampura) is an old central neighbourhood near Chauburji and the Mall. It offers affordable housing close to the old city.",
+   "city": "Lahore",
+   "displayOrder": 81
+  },
+  {
+   "type": "area",
+   "slug": "mughalpura",
+   "name": "Mughalpura",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.57,
+   "lng": 74.366,
+   "aliases": [
+    "mughalpura lahore",
+    "mughal pura"
+   ],
+   "subdivisions": [],
+   "description": "Mughalpura is an older eastern neighbourhood near the Railway workshops and UET. It offers affordable houses and portions.",
+   "city": "Lahore",
+   "displayOrder": 82
+  },
+  {
+   "type": "area",
+   "slug": "baghbanpura",
+   "name": "Baghbanpura",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.585,
+   "lng": 74.377,
+   "aliases": [
+    "baghbanpura",
+    "shalimar"
+   ],
+   "subdivisions": [],
+   "description": "Baghbanpura is a historic area beside Shalimar Gardens on GT Road. It is affordable and served by the Orange Line.",
+   "city": "Lahore",
+   "displayOrder": 83
+  },
+  {
+   "type": "area",
+   "slug": "shahdara",
+   "name": "Shahdara",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.617,
+   "lng": 74.294,
+   "aliases": [
+    "shahdara town",
+    "shahdara lahore"
+   ],
+   "subdivisions": [],
+   "description": "Shahdara lies across the Ravi on GT Road at the northern end of the Metro Bus line. It offers budget housing and markets.",
+   "city": "Lahore",
+   "displayOrder": 84
+  },
+  {
+   "type": "area",
+   "slug": "walled-city",
+   "name": "Walled City",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.582,
+   "lng": 74.319,
+   "aliases": [
+    "old lahore",
+    "androon shehar",
+    "inner city",
+    "androon lahore"
+   ],
+   "subdivisions": [],
+   "description": "The Walled City is Lahore's historic core with the Badshahi Mosque, Lahore Fort and bustling bazaars. Housing is old and compact, mostly flats above shops.",
+   "city": "Lahore",
+   "displayOrder": 85
+  },
+  {
+   "type": "area",
+   "slug": "divine-gardens",
+   "name": "Divine Gardens",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.525,
+   "lng": 74.417,
+   "aliases": [
+    "divine garden",
+    "divine gardens"
+   ],
+   "subdivisions": [],
+   "description": "Divine Gardens is a small gated society beside the airport on New Airport Road. It offers family houses close to DHA Phase 8 and the Cantt.",
+   "city": "Lahore",
+   "displayOrder": 86
+  },
+  {
+   "type": "area",
+   "slug": "military-accounts",
+   "name": "Military Accounts Society",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.444,
+   "lng": 74.265,
+   "aliases": [
+    "military accounts",
+    "mahs"
+   ],
+   "subdivisions": [
+    "Block A",
+    "Block B",
+    "Block C"
+   ],
+   "description": "Military Accounts Housing Society is near Wapda Town and Johar Town. It is a secure society with family houses.",
+   "city": "Lahore",
+   "displayOrder": 87
+  },
+  {
+   "type": "area",
+   "slug": "harbanspura",
+   "name": "Harbanspura",
+   "parent": null,
+   "tier": "budget",
+   "lat": 31.565,
+   "lng": 74.43,
+   "aliases": [
+    "harbanspura lahore"
+   ],
+   "subdivisions": [],
+   "description": "Harbanspura is an eastern neighbourhood on the Canal near GT Road and the Ring Road. It offers affordable homes.",
+   "city": "Lahore",
+   "displayOrder": 88
+  },
+  {
+   "type": "area",
+   "slug": "ghazi-road",
+   "name": "Ghazi Road",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.474,
+   "lng": 74.372,
+   "aliases": [
+    "ghazi road lahore",
+    "ghazi chowk"
+   ],
+   "subdivisions": [],
+   "description": "Ghazi Road connects Ferozepur Road with DHA and the Cantt. Small schemes and portions here offer access to DHA at lower rents.",
+   "city": "Lahore",
+   "displayOrder": 89
+  },
+  {
+   "type": "area",
+   "slug": "gulshan-e-lahore",
+   "name": "Gulshan-e-Lahore",
+   "parent": null,
+   "tier": "mid",
+   "lat": 31.498,
+   "lng": 74.275,
+   "aliases": [
+    "gulshan e lahore"
+   ],
+   "subdivisions": [],
+   "description": "Gulshan-e-Lahore is a planned society off Wahdat Road near PU New Campus. It offers houses at mid prices close to the Canal.",
+   "city": "Lahore",
+   "displayOrder": 90
+  }
+ ],
+ "landmarks": [
+  {
+   "type": "landmark",
+   "slug": "lums",
+   "name": "Lahore University of Management Sciences (LUMS)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.4706,
+   "lng": 74.4111,
+   "aliases": [
+    "lums",
+    "lahore university of management sciences"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "uet-lahore",
+   "name": "University of Engineering & Technology (UET)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.5779,
+   "lng": 74.3563,
+   "aliases": [
+    "uet",
+    "uet lahore",
+    "engineering university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "fast-nuces",
+   "name": "FAST-NUCES Lahore",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.4813,
+   "lng": 74.3031,
+   "aliases": [
+    "fast",
+    "nuces",
+    "fast university",
+    "fast lahore"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "pu-new-campus",
+   "name": "Punjab University New Campus",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.4997,
+   "lng": 74.2989,
+   "aliases": [
+    "pu",
+    "pu new campus",
+    "punjab university",
+    "quaid e azam campus",
+    "new campus"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "pu-old-campus",
+   "name": "Punjab University Old Campus",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.5687,
+   "lng": 74.3088,
+   "aliases": [
+    "pu old campus",
+    "allama iqbal campus",
+    "old campus"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "gcu",
+   "name": "Government College University (GCU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.5735,
+   "lng": 74.3105,
+   "aliases": [
+    "gcu",
+    "gc university",
+    "government college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "umt",
+   "name": "University of Management and Technology (UMT)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.4515,
+   "lng": 74.2925,
+   "aliases": [
+    "umt"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "ucp",
+   "name": "University of Central Punjab (UCP)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.4467,
+   "lng": 74.2683,
+   "aliases": [
+    "ucp",
+    "central punjab university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "superior-university",
+   "name": "Superior University (Raiwind Road)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.418,
+   "lng": 74.247,
+   "aliases": [
+    "superior",
+    "superior university",
+    "superior college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "uol",
+   "name": "The University of Lahore (UOL)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.3895,
+   "lng": 74.2414,
+   "aliases": [
+    "uol",
+    "university of lahore"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "comsats-lahore",
+   "name": "COMSATS University Lahore",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.404,
+   "lng": 74.211,
+   "aliases": [
+    "comsats",
+    "cui lahore",
+    "comsats lahore"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "fcc",
+   "name": "Forman Christian College (FCCU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.522,
+   "lng": 74.332,
+   "aliases": [
+    "fcc",
+    "fccu",
+    "forman",
+    "forman christian college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "kinnaird",
+   "name": "Kinnaird College for Women",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.527,
+   "lng": 74.333,
+   "aliases": [
+    "kinnaird",
+    "kinnaird college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lcwu",
+   "name": "Lahore College for Women University (LCWU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.532,
+   "lng": 74.329,
+   "aliases": [
+    "lcwu",
+    "lahore college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "kemu",
+   "name": "King Edward Medical University (KEMU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.57,
+   "lng": 74.314,
+   "aliases": [
+    "kemu",
+    "king edward"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "nca",
+   "name": "National College of Arts (NCA)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.569,
+   "lng": 74.309,
+   "aliases": [
+    "nca",
+    "national college of arts"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "itu",
+   "name": "Information Technology University (ITU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.476,
+   "lng": 74.343,
+   "aliases": [
+    "itu",
+    "arfa tower",
+    "arfa software technology park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "bnu",
+   "name": "Beaconhouse National University (BNU)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.41,
+   "lng": 74.231,
+   "aliases": [
+    "bnu",
+    "beaconhouse national university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "uvas",
+   "name": "University of Veterinary & Animal Sciences (UVAS)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.564,
+   "lng": 74.332,
+   "aliases": [
+    "uvas",
+    "veterinary university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lgu",
+   "name": "Lahore Garrison University",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.473,
+   "lng": 74.457,
+   "aliases": [
+    "lgu",
+    "garrison university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "minhaj-university",
+   "name": "Minhaj University Lahore",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.457,
+   "lng": 74.307,
+   "aliases": [
+    "minhaj",
+    "minhaj university"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "ue-township",
+   "name": "University of Education (Township)",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.464,
+   "lng": 74.3,
+   "aliases": [
+    "university of education",
+    "ue lahore"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lse",
+   "name": "Lahore School of Economics",
+   "category": "university",
+   "subCategory": "",
+   "lat": 31.505,
+   "lng": 74.36,
+   "aliases": [
+    "lse",
+    "lahore school of economics"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "shaukat-khanum",
+   "name": "Shaukat Khanum Memorial Cancer Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.4472,
+   "lng": 74.2683,
+   "aliases": [
+    "shaukat khanum",
+    "skmch",
+    "shaukat khanum hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "services-hospital",
+   "name": "Services Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.541,
+   "lng": 74.338,
+   "aliases": [
+    "services hospital",
+    "sims"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "jinnah-hospital",
+   "name": "Jinnah Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.484,
+   "lng": 74.299,
+   "aliases": [
+    "jinnah hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "mayo-hospital",
+   "name": "Mayo Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.57,
+   "lng": 74.313,
+   "aliases": [
+    "mayo",
+    "mayo hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "doctors-hospital",
+   "name": "Doctors Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.47,
+   "lng": 74.277,
+   "aliases": [
+    "doctors hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "hameed-latif",
+   "name": "Hameed Latif Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.5115,
+   "lng": 74.3375,
+   "aliases": [
+    "hameed latif",
+    "hameed latif hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "cmh-lahore",
+   "name": "Combined Military Hospital (CMH) Lahore",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.532,
+   "lng": 74.386,
+   "aliases": [
+    "cmh",
+    "cmh lahore",
+    "combined military hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "evercare",
+   "name": "Evercare Hospital Lahore",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.426,
+   "lng": 74.244,
+   "aliases": [
+    "evercare",
+    "evercare hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "national-hospital",
+   "name": "National Hospital & Medical Centre (DHA)",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.479,
+   "lng": 74.404,
+   "aliases": [
+    "national hospital",
+    "national hospital dha"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "ittefaq-hospital",
+   "name": "Ittefaq Hospital (Model Town)",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.485,
+   "lng": 74.329,
+   "aliases": [
+    "ittefaq hospital",
+    "ittefaq"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "sheikh-zayed-hospital",
+   "name": "Sheikh Zayed Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.501,
+   "lng": 74.292,
+   "aliases": [
+    "sheikh zayed",
+    "shaikh zayed hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "general-hospital",
+   "name": "Lahore General Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.457,
+   "lng": 74.354,
+   "aliases": [
+    "general hospital",
+    "lgh"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "childrens-hospital",
+   "name": "The Children's Hospital Lahore",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.487,
+   "lng": 74.323,
+   "aliases": [
+    "children hospital",
+    "childrens hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "ganga-ram",
+   "name": "Sir Ganga Ram Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.559,
+   "lng": 74.324,
+   "aliases": [
+    "ganga ram",
+    "ganga ram hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "pkli",
+   "name": "Pakistan Kidney & Liver Institute (PKLI)",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.452,
+   "lng": 74.447,
+   "aliases": [
+    "pkli"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "pic",
+   "name": "Punjab Institute of Cardiology (PIC)",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.4855,
+   "lng": 74.2995,
+   "aliases": [
+    "pic",
+    "punjab institute of cardiology"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "bahria-international-hospital",
+   "name": "Bahria International Hospital",
+   "category": "hospital",
+   "subCategory": "",
+   "lat": 31.366,
+   "lng": 74.187,
+   "aliases": [
+    "bahria hospital"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "aitchison-college",
+   "name": "Aitchison College",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.544,
+   "lng": 74.338,
+   "aliases": [
+    "aitchison",
+    "aitchison college"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lgs-gulberg",
+   "name": "Lahore Grammar School (Gulberg)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.516,
+   "lng": 74.346,
+   "aliases": [
+    "lgs",
+    "lgs gulberg",
+    "lahore grammar school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lgs-johar-town",
+   "name": "Lahore Grammar School (Johar Town)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.466,
+   "lng": 74.282,
+   "aliases": [
+    "lgs johar town"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "beaconhouse-dha",
+   "name": "Beaconhouse School (DHA)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.473,
+   "lng": 74.401,
+   "aliases": [
+    "beaconhouse",
+    "beaconhouse dha",
+    "bss"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "city-school-dha",
+   "name": "The City School (DHA)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.469,
+   "lng": 74.406,
+   "aliases": [
+    "city school",
+    "the city school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "crescent-model-school",
+   "name": "Crescent Model Higher Secondary School",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.545,
+   "lng": 74.331,
+   "aliases": [
+    "crescent model school",
+    "cms shadman"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "cathedral-school",
+   "name": "Cathedral School",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.564,
+   "lng": 74.322,
+   "aliases": [
+    "cathedral school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "dps-model-town",
+   "name": "Divisional Public School (Model Town)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.483,
+   "lng": 74.322,
+   "aliases": [
+    "dps",
+    "divisional public school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "las",
+   "name": "Lahore American School",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.52,
+   "lng": 74.356,
+   "aliases": [
+    "las",
+    "lahore american school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "cjm",
+   "name": "Convent of Jesus and Mary",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.559,
+   "lng": 74.335,
+   "aliases": [
+    "cjm",
+    "convent of jesus and mary"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "roots-millennium-dha",
+   "name": "Roots Millennium School (DHA Phase 6)",
+   "category": "school",
+   "subCategory": "",
+   "lat": 31.475,
+   "lng": 74.448,
+   "aliases": [
+    "roots millennium",
+    "roots school"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "emporium-mall",
+   "name": "Emporium Mall",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.4673,
+   "lng": 74.2659,
+   "aliases": [
+    "emporium",
+    "emporium mall",
+    "nishat emporium"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "packages-mall",
+   "name": "Packages Mall",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.471,
+   "lng": 74.356,
+   "aliases": [
+    "packages mall",
+    "packages"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "fortress-square",
+   "name": "Fortress Square",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.53,
+   "lng": 74.368,
+   "aliases": [
+    "fortress",
+    "fortress square",
+    "fortress stadium"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "mall-of-lahore",
+   "name": "Mall of Lahore",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.534,
+   "lng": 74.372,
+   "aliases": [
+    "mall of lahore"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "liberty-market",
+   "name": "Liberty Market",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.5103,
+   "lng": 74.3445,
+   "aliases": [
+    "liberty",
+    "liberty market",
+    "liberty chowk"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "mm-alam-road",
+   "name": "MM Alam Road",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.5095,
+   "lng": 74.351,
+   "aliases": [
+    "mm alam",
+    "mm alam road",
+    "m m alam"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "anarkali",
+   "name": "Anarkali Bazaar",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.568,
+   "lng": 74.311,
+   "aliases": [
+    "anarkali",
+    "anarkali bazaar"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "hafeez-centre",
+   "name": "Hafeez Centre",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.516,
+   "lng": 74.343,
+   "aliases": [
+    "hafeez center",
+    "hafeez centre"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "hall-road",
+   "name": "Hall Road",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.564,
+   "lng": 74.317,
+   "aliases": [
+    "hall road"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "ichhra-bazaar",
+   "name": "Ichhra Bazaar",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.532,
+   "lng": 74.317,
+   "aliases": [
+    "ichhra bazaar",
+    "ichra market"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "y-block-market",
+   "name": "Y Block Market (DHA Phase 3)",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.472,
+   "lng": 74.382,
+   "aliases": [
+    "y block",
+    "y block market"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "amanah-mall",
+   "name": "Amanah Mall",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.486,
+   "lng": 74.315,
+   "aliases": [
+    "amanah mall"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "moon-market",
+   "name": "Moon Market (Iqbal Town)",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.515,
+   "lng": 74.286,
+   "aliases": [
+    "moon market"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "gulberg-main-market",
+   "name": "Gulberg Main Market",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.517,
+   "lng": 74.34,
+   "aliases": [
+    "main market",
+    "main market gulberg"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "dha-phase-6-cca",
+   "name": "DHA Phase 6 CCA / Main Boulevard",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.473,
+   "lng": 74.452,
+   "aliases": [
+    "phase 6 commercial",
+    "cca phase 6"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "barkat-market",
+   "name": "Barkat Market",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.505,
+   "lng": 74.32,
+   "aliases": [
+    "barkat market"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "shah-alam-market",
+   "name": "Shah Alam Market",
+   "category": "mall",
+   "subCategory": "",
+   "lat": 31.579,
+   "lng": 74.315,
+   "aliases": [
+    "shah alam market"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lahore-airport",
+   "name": "Allama Iqbal International Airport",
+   "category": "transport",
+   "subCategory": "airport",
+   "lat": 31.5216,
+   "lng": 74.4036,
+   "aliases": [
+    "airport",
+    "lahore airport",
+    "allama iqbal airport",
+    "lhe"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "railway-station",
+   "name": "Lahore Railway Station",
+   "category": "transport",
+   "subCategory": "rail",
+   "lat": 31.5776,
+   "lng": 74.3366,
+   "aliases": [
+    "railway station",
+    "lahore junction",
+    "city railway station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "thokar-niaz-baig",
+   "name": "Thokar Niaz Baig",
+   "category": "transport",
+   "subCategory": "bus",
+   "lat": 31.472,
+   "lng": 74.245,
+   "aliases": [
+    "thokar",
+    "thokar niaz baig",
+    "motorway entrance"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "daewoo-terminal",
+   "name": "Daewoo Express Terminal (Thokar)",
+   "category": "transport",
+   "subCategory": "bus",
+   "lat": 31.47,
+   "lng": 74.248,
+   "aliases": [
+    "daewoo",
+    "daewoo terminal"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-gajjumata",
+   "name": "Metro Bus - Gajjumata",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.391,
+   "lng": 74.361,
+   "aliases": [
+    "gajjumata",
+    "gajju matta"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-ghazi-chowk",
+   "name": "Metro Bus - Ghazi Chowk",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.457,
+   "lng": 74.353,
+   "aliases": [
+    "ghazi chowk metro"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-model-town",
+   "name": "Metro Bus - Model Town",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.488,
+   "lng": 74.33,
+   "aliases": [
+    "model town metro"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-kalma-chowk",
+   "name": "Metro Bus - Kalma Chowk",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.504,
+   "lng": 74.331,
+   "aliases": [
+    "kalma chowk",
+    "kalma chowk metro"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-ichhra",
+   "name": "Metro Bus - Ichhra",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.532,
+   "lng": 74.319,
+   "aliases": [
+    "ichhra metro"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-qartaba-chowk",
+   "name": "Metro Bus - Qartaba Chowk",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.547,
+   "lng": 74.316,
+   "aliases": [
+    "qartaba chowk"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-civil-secretariat",
+   "name": "Metro Bus - Civil Secretariat",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.573,
+   "lng": 74.311,
+   "aliases": [
+    "civil secretariat"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-azadi-chowk",
+   "name": "Metro Bus - Azadi Chowk",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.587,
+   "lng": 74.308,
+   "aliases": [
+    "azadi chowk"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "metro-shahdara",
+   "name": "Metro Bus - Shahdara",
+   "category": "transport",
+   "subCategory": "metro",
+   "lat": 31.613,
+   "lng": 74.299,
+   "aliases": [
+    "shahdara metro"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-ali-town",
+   "name": "Orange Line - Ali Town",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.46,
+   "lng": 74.247,
+   "aliases": [
+    "ali town",
+    "ali town station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-thokar",
+   "name": "Orange Line - Thokar Niaz Baig",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.4725,
+   "lng": 74.2465,
+   "aliases": [
+    "thokar orange line"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-canal-view",
+   "name": "Orange Line - Canal View",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.476,
+   "lng": 74.256,
+   "aliases": [
+    "canal view station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-wahdat-road",
+   "name": "Orange Line - Wahdat Road",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.502,
+   "lng": 74.277,
+   "aliases": [
+    "wahdat road station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-sabzazar",
+   "name": "Orange Line - Sabzazar",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.519,
+   "lng": 74.277,
+   "aliases": [
+    "sabzazar station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-samanabad",
+   "name": "Orange Line - Samanabad",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.539,
+   "lng": 74.296,
+   "aliases": [
+    "samanabad station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-chauburji",
+   "name": "Orange Line - Chauburji",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.553,
+   "lng": 74.303,
+   "aliases": [
+    "chauburji",
+    "chauburji station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-anarkali",
+   "name": "Orange Line - Anarkali",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.565,
+   "lng": 74.309,
+   "aliases": [
+    "anarkali station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-gpo",
+   "name": "Orange Line - GPO",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.568,
+   "lng": 74.314,
+   "aliases": [
+    "gpo station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-railway-station",
+   "name": "Orange Line - Railway Station",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.577,
+   "lng": 74.337,
+   "aliases": [
+    "railway station orange line"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-uet",
+   "name": "Orange Line - UET",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.5785,
+   "lng": 74.355,
+   "aliases": [
+    "uet station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-shalimar",
+   "name": "Orange Line - Shalimar Gardens",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.586,
+   "lng": 74.383,
+   "aliases": [
+    "shalimar station"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "orange-dera-gujran",
+   "name": "Orange Line - Dera Gujran",
+   "category": "transport",
+   "subCategory": "orange-line",
+   "lat": 31.592,
+   "lng": 74.414,
+   "aliases": [
+    "dera gujran"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "badshahi-mosque",
+   "name": "Badshahi Mosque",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.588,
+   "lng": 74.31,
+   "aliases": [
+    "badshahi",
+    "badshahi masjid"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "data-darbar",
+   "name": "Data Darbar",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.579,
+   "lng": 74.304,
+   "aliases": [
+    "data darbar",
+    "data sahib"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "wazir-khan-mosque",
+   "name": "Wazir Khan Mosque",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.583,
+   "lng": 74.323,
+   "aliases": [
+    "wazir khan",
+    "wazir khan masjid"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "masjid-e-shuhada",
+   "name": "Masjid-e-Shuhada (Mall Road)",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.559,
+   "lng": 74.328,
+   "aliases": [
+    "masjid e shuhada",
+    "shuhada mosque"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "grand-jamia-bahria",
+   "name": "Grand Jamia Mosque (Bahria Town)",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.364,
+   "lng": 74.183,
+   "aliases": [
+    "grand jamia mosque",
+    "bahria grand mosque"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "dha-phase-5-mosque",
+   "name": "Jamia Masjid DHA Phase 5",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.462,
+   "lng": 74.407,
+   "aliases": [
+    "dha phase 5 mosque"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "jamia-naeemia",
+   "name": "Jamia Naeemia (Garhi Shahu)",
+   "category": "mosque",
+   "subCategory": "",
+   "lat": 31.559,
+   "lng": 74.34,
+   "aliases": [
+    "jamia naeemia"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "jilani-park",
+   "name": "Jilani Park (Racecourse)",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.537,
+   "lng": 74.339,
+   "aliases": [
+    "racecourse park",
+    "jilani park",
+    "race course park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "bagh-e-jinnah",
+   "name": "Bagh-e-Jinnah (Lawrence Gardens)",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.555,
+   "lng": 74.329,
+   "aliases": [
+    "lawrence garden",
+    "bagh e jinnah",
+    "jinnah garden"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "model-town-park",
+   "name": "Model Town Park",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.482,
+   "lng": 74.326,
+   "aliases": [
+    "model town park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "gulshan-e-iqbal-park",
+   "name": "Gulshan-e-Iqbal Park",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.515,
+   "lng": 74.288,
+   "aliases": [
+    "gulshan e iqbal park",
+    "iqbal park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "jallo-park",
+   "name": "Jallo Park",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.579,
+   "lng": 74.477,
+   "aliases": [
+    "jallo",
+    "jallo park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "shalimar-gardens",
+   "name": "Shalimar Gardens",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.586,
+   "lng": 74.381,
+   "aliases": [
+    "shalimar garden",
+    "shalimar bagh"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "minar-e-pakistan",
+   "name": "Minar-e-Pakistan (Greater Iqbal Park)",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.5925,
+   "lng": 74.3095,
+   "aliases": [
+    "minar e pakistan",
+    "greater iqbal park",
+    "iqbal park minar"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lahore-zoo",
+   "name": "Lahore Zoo",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.556,
+   "lng": 74.326,
+   "aliases": [
+    "zoo",
+    "lahore zoo"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "safari-park",
+   "name": "Lahore Safari Park",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.401,
+   "lng": 74.214,
+   "aliases": [
+    "safari park",
+    "safari zoo"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "lahore-fort",
+   "name": "Lahore Fort",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.588,
+   "lng": 74.315,
+   "aliases": [
+    "shahi qila",
+    "lahore fort"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "dha-phase-6-park",
+   "name": "DHA Phase 6 Main Park",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.469,
+   "lng": 74.456,
+   "aliases": [
+    "phase 6 park"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "raya-golf",
+   "name": "Raya Golf & Country Club",
+   "category": "park",
+   "subCategory": "",
+   "lat": 31.46,
+   "lng": 74.479,
+   "aliases": [
+    "raya golf"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "gaddafi-stadium",
+   "name": "Gaddafi Stadium",
+   "category": "other",
+   "subCategory": "",
+   "lat": 31.5135,
+   "lng": 74.333,
+   "aliases": [
+    "gaddafi",
+    "qaddafi stadium"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "arfa-tower",
+   "name": "Arfa Software Technology Park",
+   "category": "other",
+   "subCategory": "",
+   "lat": 31.4762,
+   "lng": 74.3428,
+   "aliases": [
+    "arfa",
+    "arfa karim tower"
+   ],
+   "city": "Lahore"
+  },
+  {
+   "type": "landmark",
+   "slug": "eiffel-tower-bahria",
+   "name": "Eiffel Tower Replica (Bahria Town)",
+   "category": "other",
+   "subCategory": "",
+   "lat": 31.3665,
+   "lng": 74.186,
+   "aliases": [
+    "bahria eiffel tower"
+   ],
+   "city": "Lahore"
+  }
+ ]
+}
