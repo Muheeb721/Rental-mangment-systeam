@@ -1,0 +1,23 @@
+.messages-page .table-wrap {
+  overflow: auto;
+}
+
+.messages-page .table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: min(680px, 100%);
+}
+
+.messages-page .table-wrap th,
+.messages-page .table-wrap td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.messages-page .table-wrap th {
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}

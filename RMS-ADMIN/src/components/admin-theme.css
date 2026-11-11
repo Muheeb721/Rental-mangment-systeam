@@ -1,0 +1,256 @@
+.dashboard-shell {
+  --shopify-green: #008060;
+  --shopify-green-dark: #005e48;
+  --shopify-green-soft: rgba(0, 128, 96, 0.12);
+  --admin-bg: #f5f5f5;
+  --admin-panel: #ffffff;
+  --admin-panel-alt: #f6f7f8;
+  --admin-sidebar: #20232d;
+  --admin-sidebar-soft: #2a2d37;
+  --admin-border: rgba(16, 24, 40, 0.08);
+  --admin-text: #1f2937;
+  --admin-muted: #6b7280;
+  --admin-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+  background: var(--admin-bg);
+  color: var(--admin-text);
+}
+
+.dashboard-shell .sidebar {
+  background: linear-gradient(180deg, var(--admin-sidebar) 0%, #1b1d28 100%);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.04);
+}
+
+.dashboard-shell .sidebar-header {
+  padding: 12px 8px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dashboard-shell .app-brand {
+  background: linear-gradient(135deg, var(--shopify-green) 0%, #3eb489 100%);
+  box-shadow: 0 12px 24px rgba(0, 128, 96, 0.28);
+}
+
+.dashboard-shell .brand-copy strong,
+.dashboard-shell .brand-copy small {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.dashboard-shell .collapse-toggle {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dashboard-shell .nav-item {
+  color: rgba(255, 255, 255, 0.74);
+  font-weight: 600;
+  padding: 11px 12px;
+  border-radius: 10px;
+}
+
+.dashboard-shell .nav-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.04);
+}
+
+.dashboard-shell .nav-item.active {
+  background: linear-gradient(135deg, rgba(0, 128, 96, 0.22), rgba(62, 180, 137, 0.12));
+  color: #ffffff;
+  border-color: rgba(0, 128, 96, 0.42);
+  box-shadow: inset 0 0 0 1px rgba(62, 180, 137, 0.2);
+}
+
+.dashboard-shell .sidebar-footer {
+  padding-top: 8px;
+}
+
+.dashboard-shell .primary-button,
+.dashboard-shell .outline-button,
+.dashboard-shell .add-button,
+.dashboard-shell .header-icon-button,
+.dashboard-shell .profile-pill,
+.dashboard-shell .search-box,
+.dashboard-shell .topbar .search-box {
+  border-radius: 12px;
+}
+
+.dashboard-shell .primary-button {
+  background: linear-gradient(135deg, var(--shopify-green) 0%, var(--shopify-green-dark) 100%);
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 128, 96, 0.18);
+}
+
+.dashboard-shell .outline-button {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.dashboard-shell .content-area {
+  background: transparent;
+  padding: 24px 28px 28px;
+}
+
+.dashboard-shell .topbar {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(17, 24, 39, 0.04);
+  border-radius: 18px;
+  padding: 18px 20px 16px;
+  box-shadow: var(--admin-shadow);
+  margin-bottom: 22px;
+}
+
+.dashboard-shell .topbar h2 {
+  color: var(--admin-text);
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  letter-spacing: -0.03em;
+}
+
+.dashboard-shell .eyebrow {
+  color: var(--admin-muted);
+  letter-spacing: 0.12em;
+}
+
+.dashboard-shell .search-box {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+}
+
+.dashboard-shell .search-box input {
+  color: var(--admin-text);
+}
+
+.dashboard-shell .search-result-item {
+  border-radius: 10px;
+}
+
+.dashboard-shell .header-icon-button {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: var(--admin-border);
+  color: var(--admin-text);
+}
+
+.dashboard-shell .profile-pill {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid var(--admin-border);
+  color: var(--admin-text);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.04);
+}
+
+.dashboard-shell .avatar-wrap {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d0f4e2, #f3faf7);
+  color: var(--shopify-green-dark);
+  border: 1px solid rgba(0, 128, 96, 0.12);
+}
+
+.dashboard-shell .profile-meta strong {
+  color: var(--admin-text);
+}
+
+.dashboard-shell .profile-meta small {
+  color: var(--admin-muted);
+}
+
+.dashboard-shell .content-area .ant-card,
+.dashboard-shell .content-area .ant-table-wrapper,
+.dashboard-shell .content-area .ant-modal-content,
+.dashboard-shell .content-area .ant-form,
+.dashboard-shell .content-area .ant-tabs-card > .ant-tabs-content-holder,
+.dashboard-shell .content-area .ant-tabs > .ant-tabs-nav {
+  border-radius: 18px;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04);
+}
+
+.dashboard-shell .content-area .ant-card {
+  border: 1px solid rgba(15, 23, 42, 0.05);
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.dashboard-shell .content-area .ant-table-thead > tr > th {
+  background: #f8fafc;
+  color: var(--admin-text);
+  font-weight: 700;
+}
+
+.dashboard-shell .content-area .ant-btn-primary {
+  background: linear-gradient(135deg, var(--shopify-green) 0%, var(--shopify-green-dark) 100%);
+  border: none;
+}
+
+.dashboard-shell .content-area .ant-btn-default {
+  border-color: rgba(15, 23, 42, 0.08);
+  color: var(--admin-text);
+}
+
+.dashboard-shell .content-area .ant-pagination-item-active {
+  border-color: var(--shopify-green);
+  background: var(--shopify-green-soft);
+}
+
+@media (max-width: 1100px) {
+  .dashboard-shell .topbar {
+    padding: 16px 14px;
+  }
+
+  .dashboard-shell .topbar-actions {
+    width: 100%;
+  }
+
+  .dashboard-shell .global-search {
+    width: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  .dashboard-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-shell .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(82vw, 300px);
+    transform: translateX(-105%);
+    transition: transform 0.22s ease;
+    z-index: 50;
+  }
+
+  .dashboard-shell .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .dashboard-shell .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 40;
+  }
+
+  .dashboard-shell .sidebar-backdrop.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .dashboard-shell .content-area {
+    padding: 18px 14px 28px;
+  }
+
+  .dashboard-shell .menu-toggle {
+    display: inline-flex;
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    z-index: 60;
+  }
+}

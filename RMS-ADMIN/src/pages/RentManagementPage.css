@@ -1,0 +1,119 @@
+.rent-page {
+  gap: 20px;
+}
+
+.rent-page .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.rent-page .card-header h3 {
+  margin: 0;
+}
+
+.rent-page .rent-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.rent-page .tab-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(248, 250, 252, 0.8);
+}
+
+.rent-page .tab-button {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rent-page .tab-button.active {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: white;
+  box-shadow: 0 10px 18px rgba(37, 99, 235, 0.2);
+}
+
+.rent-page .rent-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 14px;
+  margin: 0 0 18px;
+}
+
+.rent-page .summary-metric {
+  padding: 18px 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.98));
+  box-shadow: var(--shadow);
+}
+
+.rent-page .summary-metric span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.rent-page .summary-metric strong {
+  display: block;
+  margin-top: 8px;
+  font-size: clamp(1.3rem, 2vw, 1.8rem);
+  letter-spacing: -0.04em;
+}
+
+.rent-page .tone-primary { border-color: rgba(59, 130, 246, 0.12); }
+.rent-page .tone-success { border-color: rgba(22, 163, 74, 0.12); }
+.rent-page .tone-danger { border-color: rgba(239, 68, 68, 0.12); }
+
+.rent-page .stats-grid { margin: 12px 0 18px; }
+.rent-page .stat-card { padding: 18px; border-radius: 12px; background: #fff; box-shadow: 0 6px 18px rgba(0,0,0,0.04); }
+.rent-page .stat-card p { margin: 0; color: var(--muted); }
+.rent-page .stat-card h3 { margin: 8px 0 0; }
+.rent-page .table-wrap { overflow: auto; margin-top: 12px; }
+.rent-page .table-wrap table { width: 100%; border-collapse: collapse; }
+.rent-page .table-wrap th, .rent-page .table-wrap td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+.rent-page .status-badge { padding: 6px 8px; border-radius: 8px; font-weight: 700; }
+.rent-page .status-badge.paid { background: #def7ec; color: #065f46; }
+.rent-page .status-badge.partial { background: #fff7ed; color: #92400e; }
+.rent-page .status-badge.overdue { background: #ffefef; color: #991b1b; }
+.rent-page .status-badge.due { background: #fffbeb; color: #92400e; }
+.rent-page .mini-button { margin-left: 8px; }
+
+@media (max-width: 900px) {
+  .rent-page .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rent-page .rent-summary-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .rent-page .rent-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rent-page .tab-switcher {
+    width: 100%;
+    overflow-x: auto;
+  }
+}

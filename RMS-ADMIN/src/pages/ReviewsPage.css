@@ -1,0 +1,31 @@
+.reviews-page .list-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviews-page .review-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.reviews-page .review-item:last-child {
+  border-bottom: none;
+}
+
+.reviews-page .review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.reviews-page .review-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.reviews-page .review-item p,
+.reviews-page .review-item small {
+  color: var(--muted);
+}

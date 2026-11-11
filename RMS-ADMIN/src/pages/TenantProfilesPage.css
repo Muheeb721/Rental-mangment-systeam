@@ -1,0 +1,6 @@
+/* Minimal styles for tenant profiles page */
+.page-section.tenant-profiles-page .muted { font-size: 0.85em; color: #666; }
+.table-actions { display:flex; gap:8px; }
+.status-badge { padding:4px 8px; border-radius:6px; background:#eee; }
+.status-badge.approved { background:#d4f4dd; }
+.status-badge.pending { background:#fff3cd; }

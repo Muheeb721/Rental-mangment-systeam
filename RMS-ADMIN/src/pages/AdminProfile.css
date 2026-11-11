@@ -1,0 +1,10 @@
+.admin-profile-page { max-width:900px; margin:20px auto; }
+.profile-card{ display:flex; gap:16px; background:#fff; padding:12px; border-radius:8px; align-items:center; box-shadow:0 1px 3px rgba(0,0,0,0.06); }
+.avatar{ width:120px; height:120px; border-radius:8px; background-size:cover; background-position:center; }
+.info h3{ margin:0; }
+.info p{ margin:4px 0; color:#666 }
+.buttons{ margin-top:12px }
+.file-label{ cursor:pointer; padding:6px 10px; border:1px solid #ddd; border-radius:6px; display:inline-block; }
+
+.profile-form label{ display:block; margin-bottom:10px }
+.profile-form input{ width:100%; padding:8px; border:1px solid #ddd; border-radius:6px }

@@ -1,0 +1,77 @@
+.settings-page .settings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.settings-page .setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.settings-page .setting-row:last-child {
+  border-bottom: none;
+}
+
+.settings-page .setting-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.settings-page .setting-description {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.settings-page .switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 30px;
+}
+
+.settings-page .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.settings-page .switch:focus-within .slider {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.settings-page .slider {
+  position: absolute;
+  inset: 0;
+  background: #dfe7ff;
+  border-radius: 999px;
+  transition: 0.2s ease;
+}
+
+.settings-page .slider::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 4px;
+  top: 4px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.settings-page .switch input:checked + .slider {
+  background: var(--primary);
+}
+
+.settings-page .switch input:checked + .slider::before {
+  transform: translateX(22px);
+}

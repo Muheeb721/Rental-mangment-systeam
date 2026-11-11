@@ -1,0 +1,105 @@
+.notifications-page {
+  gap: 20px;
+}
+
+.notifications-page .summary-card {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  gap: 16px;
+  padding: 18px 20px;
+}
+
+.notifications-page .summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(248, 250, 252, 0.8);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.notifications-page .summary-item span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.notifications-page .summary-item strong {
+  font-size: 1.75rem;
+  letter-spacing: -0.04em;
+  color: var(--text);
+}
+
+.notifications-page .summary-item.highlight {
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.08), rgba(59, 130, 246, 0.12));
+  border-color: rgba(79, 70, 229, 0.15);
+}
+
+.notifications-page .list-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notifications-page .list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(248, 250, 252, 0.75);
+}
+
+.notifications-page .list-row.unread {
+  border-left: 4px solid #3b82f6;
+}
+
+.notifications-page .list-row.read {
+  opacity: 0.8;
+}
+
+.notifications-page .list-row:last-child {
+  border-bottom: none;
+}
+
+.notifications-page .list-row strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.notifications-page .list-row small {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.notifications-page .notification-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.notifications-page .time-tag {
+  font-size: 0.72rem;
+  color: var(--muted);
+  background: rgba(148, 163, 184, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 999px;
+  padding: 6px 8px;
+}
+
+@media (max-width: 720px) {
+  .notifications-page .summary-card {
+    grid-template-columns: 1fr;
+  }
+
+  .notifications-page .list-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

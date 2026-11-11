@@ -1,0 +1,42 @@
+.collection-page .property-form {
+  display: grid;
+  gap: 16px;
+}
+
+.collection-page .property-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.collection-page .table-wrap {
+  overflow: auto;
+}
+
+.collection-page .table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: min(640px, 100%);
+}
+
+.collection-page .table-wrap th,
+.collection-page .table-wrap td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.collection-page .table-wrap th {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+}
+
+.collection-page .inline-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
