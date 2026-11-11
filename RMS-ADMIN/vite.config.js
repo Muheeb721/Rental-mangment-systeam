@@ -6,7 +6,15 @@ import babel from '@rolldown/plugin-babel'
 const backendTarget = (process.env.VITE_API_URL || process.env.VITE_API_BASE_URL || 'http://localhost:5000').replace(/\/api\/?$/, '')
 
 // /api plus the backend's static image folders are proxied in dev/preview
-const backendProxy = Object.fromEntries(['/api', '/uploads', '/images'].map((prefix) => [prefix, { target: backendTarget, changeOrigin: true, secure: false }]))
+// Drop Origin on proxied requests: the proxy is same-origin for the browser (works behind a public tunnel too)
+const stripOrigin = (proxy) => {
+  proxy.on('proxyReq', (req) => req.removeHeader('origin'))
+  proxy.on('proxyReqWs', (req) => req.removeHeader('origin'))
+}
+const backendProxy = {
+  ...Object.fromEntries(['/api', '/uploads', '/images'].map((prefix) => [prefix, { target: backendTarget, changeOrigin: true, secure: false, configure: stripOrigin }])),
+  '/socket.io': { target: backendTarget, changeOrigin: true, ws: true, configure: stripOrigin },
+}
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -17,6 +25,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5174,
+    allowedHosts: ['.trycloudflare.com'],
     proxy: backendProxy,
   },
   preview: {
