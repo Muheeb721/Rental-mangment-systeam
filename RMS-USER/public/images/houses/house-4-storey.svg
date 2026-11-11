@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g4" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f8f6ff"/>
+      <stop offset="100%" stop-color="#dfeaff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g4)"/>
+  <rect x="0" y="560" width="1200" height="240" fill="#dfead5"/>
+  <rect x="160" y="210" width="250" height="300" fill="#f6f8fb" stroke="#7e93a6" stroke-width="10"/>
+  <rect x="470" y="180" width="260" height="330" fill="#eef7ff" stroke="#7e93a6" stroke-width="10"/>
+  <rect x="790" y="230" width="220" height="280" fill="#f9f4eb" stroke="#7e93a6" stroke-width="10"/>
+  <rect x="210" y="290" width="70" height="140" fill="#d5ebfb"/>
+  <rect x="300" y="290" width="70" height="140" fill="#d5ebfb"/>
+  <rect x="535" y="240" width="130" height="200" fill="#d4dff8"/>
+  <rect x="845" y="300" width="110" height="150" fill="#f4c98e"/>
+  <rect x="500" y="110" width="200" height="60" fill="#c8dcff"/>
+  <path d="M95 610 L300 450 L505 610 Z" fill="#95d4af" opacity="0.7"/>
+  <path d="M690 610 L900 450 L1114 610 Z" fill="#95d4af" opacity="0.7"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" fill="#1d3c5c">4 Storey House</text>
+</svg>

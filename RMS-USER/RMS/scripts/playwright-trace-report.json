@@ -1,0 +1,9 @@
+{
+  "token": false,
+  "tokenValue": null,
+  "ls": {
+    "auth_session": null,
+    "auth_data": null,
+    "rms_token": null
+  }
+}

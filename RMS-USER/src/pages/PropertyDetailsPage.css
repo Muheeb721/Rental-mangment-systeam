@@ -1,0 +1,19 @@
+.page-shell {
+  padding: 24px 0 48px;
+}
+.section-card {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 16px 60px rgba(15, 23, 42, 0.08);
+}
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}

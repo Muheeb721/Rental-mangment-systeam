@@ -1,0 +1,9 @@
+{
+  "token": true,
+  "tokenValue": "eyJhbGciOiJIUzI1NiIs",
+  "ls": {
+    "auth_session": "{\"name\":\"System Admin\",\"email\":\"admin@rms.com\",\"role\":\"admin\",\"isLoggedIn\":true,\"loginDate\":\"04/09/2026\",\"loginTime\":\"08:43 pm\"}",
+    "auth_data": "{\"name\":\"System Admin\",\"email\":\"admin@rms.com\",\"role\":\"admin\",\"isLoggedIn\":true,\"loginDate\":\"04/09/2026\",\"loginTime\":\"08:43 pm\"}",
+    "rms_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOTJmYmFiOWYyNjhhZDcxYTgxYWViZCIsImVtYWlsIjoiYWRtaW5Acm1zLmNvbSIsIm5hbWUiOiJTeXN0ZW0gQWRtaW4iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3ODg1MzY2MDksImV4cCI6MTc4OTE0MTQwOX0.RJV9e8GLlmIJBr9nNVkCsPA7nbcWCX1okt0h-Uxomno"
+  }
+}

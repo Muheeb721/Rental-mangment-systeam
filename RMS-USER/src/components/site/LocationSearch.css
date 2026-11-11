@@ -1,0 +1,21 @@
+.ls { position: relative; min-width: 0; }
+.ls > input { padding-right: 34px; width: 100%; text-overflow: ellipsis; }
+.ls__clear { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; display: grid; place-items: center; border: 0; border-radius: 999px; background: transparent; color: var(--muted); cursor: pointer; }
+.ls__clear:hover { background: var(--bg-2); color: var(--ink); }
+.ls__pop { position: absolute; z-index: 1200; top: calc(100% + 8px); left: 0; width: max(100%, 340px); max-width: min(440px, calc(100vw - 32px)); max-height: 360px; overflow-y: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--sh-lg); padding: 6px; text-align: left; }
+.ls__hint, .ls__group { font: 700 11px/1 var(--font-text); letter-spacing: .06em; text-transform: uppercase; color: var(--subtle); padding: 10px 10px 6px; }
+.ls__hint { color: var(--brand-600); }
+.ls__opt { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 10px; cursor: pointer; color: var(--ink); }
+.ls__opt.is-active { background: var(--brand-50); }
+.ls__icon { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; background: var(--bg-2); color: var(--ink-2); }
+.ls__icon--area { background: var(--brand-50); color: var(--brand); }
+.ls__icon--university { background: #eef4ff; color: #3538cd; }
+.ls__icon--hospital { background: #fef3f2; color: #b42318; }
+.ls__icon--school { background: #fdf2fa; color: #c11574; }
+.ls__icon--mall { background: var(--accent-50); color: #93370d; }
+.ls__icon--transport { background: #f0f9ff; color: #026aa2; }
+.ls__icon--park { background: #ecfdf3; color: #067647; }
+.ls__name { font-weight: 600; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ls__meta { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.ls__empty { padding: 16px 12px; color: var(--muted); font-size: 14px; }
+@media (max-width: 480px) { .ls__meta { display: none; } .ls__opt { grid-template-columns: 28px minmax(0, 1fr); } }

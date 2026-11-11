@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eaf7ff"/>
+      <stop offset="100%" stop-color="#b6d8f6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7b267"/>
+      <stop offset="100%" stop-color="#f4845f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <rect x="0" y="540" width="1200" height="260" fill="#d9e5d0"/>
+  <circle cx="930" cy="120" r="70" fill="#fff3bf" opacity="0.95"/>
+  <rect x="150" y="260" width="420" height="260" fill="#ecf2f7" stroke="#8aa4bd" stroke-width="10"/>
+  <rect x="210" y="320" width="90" height="120" fill="#d7e7f8"/>
+  <rect x="330" y="320" width="90" height="120" fill="#d7e7f8"/>
+  <rect x="450" y="320" width="90" height="120" fill="#d7e7f8"/>
+  <rect x="210" y="210" width="330" height="80" fill="#9ec5d3"/>
+  <rect x="580" y="220" width="300" height="300" fill="#f4f4f4" stroke="#8aa4bd" stroke-width="10"/>
+  <rect x="640" y="280" width="180" height="170" fill="#f8d6a5"/>
+  <rect x="695" y="180" width="70" height="90" fill="#cfebff"/>
+  <rect x="690" y="510" width="220" height="20" fill="#7b8fa6" opacity="0.6"/>
+  <path d="M100 540 L260 420 L420 540 Z" fill="url(#g2)" opacity="0.8"/>
+  <path d="M760 540 L910 420 L1060 540 Z" fill="url(#g2)" opacity="0.75"/>
+  <rect x="90" y="620" width="1020" height="20" fill="#9aa8a6" opacity="0.6"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#1f3d5b">2 Storey House</text>
+</svg>
