@@ -62,6 +62,8 @@ export const handlemessage = async (req, res) => {
       properties: Array.isArray(data.properties) ? data.properties : [],
       intent: data.intent || 'unknown',
       entities: data.entities && typeof data.entities === 'object' ? data.entities : {},
+      ...(data.travel && typeof data.travel === 'object' ? { travel: data.travel } : {}),
+      ...(data.context_property_id ? { context_property_id: String(data.context_property_id) } : {}),
     });
   } catch (error) {
     const timedOut = error && (error.name === 'TimeoutError' || error.name === 'AbortError');
